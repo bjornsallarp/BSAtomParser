@@ -1,0 +1,1110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/bjornsallarp.private</id>
+  <link type="text/html" rel="alternate" href="https://github.com/bjornsallarp"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/bjornsallarp.private.atom?token=c102247384d3528e4602b1353273b4db"/>
+  <title>Private Feed for bjornsallarp</title>
+  <updated>2011-05-07T09:39:02-07:00</updated>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1352511158</id>
+    <published>2011-05-07T09:39:02-07:00</published>
+    <updated>2011-05-07T09:39:02-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/facebook/hiphop-php/issues/324#issuecomment-1115781"/>
+    <title>kallaspriit commented on issue 324 on facebook/hiphop-php</title>
+    <author>
+      <name>kallaspriit</name>
+          <uri>https://github.com/kallaspriit</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/4b00d57778194e69ef79695bc4270d53?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote title=&quot;udad is right, find line
+```php
+$written = @stream_socket_sendto($this-&amp;gt;handle_, $buf);
+```
+in thrift/transport/TSocket.php (line 291 for me) and replace it with
+```php
+$written = fwrite($this-&amp;gt;handle_, $buf);
+```
+
+Seems to work for me :)&quot;&gt;
+      &lt;p&gt;udad is right, find line&lt;code&gt;php
+$written = @stream_socket_sendto($this-&amp;gt;handle_, $buf);&lt;/code&gt;
+in thrift/transport/TSocket.php (line 291 for me) and replace it w...&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:WatchEvent/1349020705</id>
+    <published>2011-05-06T12:53:58-07:00</published>
+    <updated>2011-05-06T12:53:58-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/bjornsallarp/BSForwardGeocoder"/>
+    <title>JulianRamirez started watching bjornsallarp/BSForwardGeocoder</title>
+    <author>
+      <name>JulianRamirez</name>
+          <uri>https://github.com/JulianRamirez</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/1fd6e436505a8e945477feee95afe556?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    BSForwardGeocoder's description:
+&lt;blockquote&gt;This is a forward geocoding API for iPhone&amp;#47;iPad&lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:WatchEvent/1345093013</id>
+    <published>2011-05-05T19:47:53-07:00</published>
+    <updated>2011-05-05T19:47:53-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/bjornsallarp/BSForwardGeocoder"/>
+    <title>claytonbrown started watching bjornsallarp/BSForwardGeocoder</title>
+    <author>
+      <name>claytonbrown</name>
+          <uri>https://github.com/claytonbrown</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/bcf2425688a344510622c7776226058b?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    BSForwardGeocoder's description:
+&lt;blockquote&gt;This is a forward geocoding API for iPhone&amp;#47;iPad&lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:WatchEvent/1332886957</id>
+    <published>2011-05-03T06:47:28-07:00</published>
+    <updated>2011-05-03T06:47:28-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/bjornsallarp/BSForwardGeocoder"/>
+    <title>davidcann started watching bjornsallarp/BSForwardGeocoder</title>
+    <author>
+      <name>davidcann</name>
+          <uri>https://github.com/davidcann</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/f77082079fd419c47551a5db091fc123?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    BSForwardGeocoder's description:
+&lt;blockquote&gt;This is a forward geocoding API for iPhone&amp;#47;iPad&lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:WatchEvent/1331921876</id>
+    <published>2011-05-02T23:56:30-07:00</published>
+    <updated>2011-05-02T23:56:30-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/bjornsallarp/YahooFinance"/>
+    <title>donnykurnia started watching bjornsallarp/YahooFinance</title>
+    <author>
+      <name>donnykurnia</name>
+          <email>donnykurnia@gmail.com</email>
+          <uri>https://github.com/donnykurnia</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/a4d6bfee60938c23ea234c7951ab242d?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    YahooFinance's description:
+&lt;blockquote&gt;iOS API for Yahoo finance. Stock symbol search, stock details and currency conversion. &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssuesEvent/1329879074</id>
+    <published>2011-05-02T12:50:05-07:00</published>
+    <updated>2011-05-02T12:50:05-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/facebook/hiphop-php/issues/169"/>
+    <title>joelastpass closed issue 169 on facebook/hiphop-php</title>
+    <author>
+      <name>joelastpass</name>
+          <uri>https://github.com/joelastpass</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/a38365196bcbc065aca4afd0e506b2e8?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote&gt;
+      __FILE__ is always relative to the current working directory in hiphop, and can't be used for in require/include
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1329877018</id>
+    <published>2011-05-02T12:49:42-07:00</published>
+    <updated>2011-05-02T12:49:42-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/facebook/hiphop-php/issues/194#issuecomment-1090214"/>
+    <title>joelastpass commented on issue 194 on facebook/hiphop-php</title>
+    <author>
+      <name>joelastpass</name>
+          <uri>https://github.com/joelastpass</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/a38365196bcbc065aca4afd0e506b2e8?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote title=&quot;It's probably not terribly important that this be fixed as you can utilize rewrite rules in nginx/apache to convert it to something hiphop would like. &quot;&gt;
+      &lt;p&gt;It's probably not terribly important that this be fixed as you can utilize rewrite rules in nginx/apache to convert it to something hiphop would like....&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1328115653</id>
+    <published>2011-05-02T03:36:45-07:00</published>
+    <updated>2011-05-02T03:36:45-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/facebook/hiphop-php/compare/87fc47762a...8741a6156b"/>
+    <title>scottmac pushed to master at facebook/hiphop-php</title>
+    <author>
+      <name>scottmac</name>
+          <uri>https://github.com/scottmac</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/3c5a0318513620a5d04916e7deee6737?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+&lt;div class=&quot;details&quot;&gt;
+  
+
+  &lt;div class=&quot;commits&quot;&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+      &lt;strong&gt;&lt;span class=&quot;committer&quot;&gt;mwilliams&lt;/span&gt;&lt;/strong&gt; committed &lt;a href=&quot;/facebook/hiphop-php/commit/8741a6156ba155397be1e0dd14f2af0b29f2461c&quot;&gt;8741a61&lt;/a&gt;
+
+        &lt;div class=&quot;message&quot;&gt;
+          &lt;blockquote&gt;Fix an uninitialized field&lt;br&gt;
+&lt;br&gt;
+Summary:&lt;br&gt;
+m_containsBareThis was not initialized. Also add a couple of useful accessors.&lt;br&gt;
+&lt;br&gt;
+Test Plan:&lt;br&gt;
+fast_tests slow_tests&lt;br&gt;
+&lt;br&gt;
+Reviewed By: qigao&lt;br&gt;
+Reviewers: qigao, myang&lt;br&gt;
+CC: ps, qigao&lt;br&gt;
+Revert Plan:&lt;br&gt;
+&lt;br&gt;
+Differential Revision: 239934&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;strong&gt;&lt;span class=&quot;committer&quot;&gt;mwilliams&lt;/span&gt;&lt;/strong&gt; committed &lt;a href=&quot;/facebook/hiphop-php/commit/fe9efee0ee6d964d670ee25f0816b85c124d11d2&quot;&gt;fe9efee&lt;/a&gt;
+
+        &lt;div class=&quot;message&quot;&gt;
+          &lt;blockquote&gt;[Fix] Fix uses of $this in pseudomain&lt;br&gt;
+&lt;br&gt;
+Summary:&lt;br&gt;
+If a file is required from within a method, the file&amp;#39;s pseudomain should be&lt;br&gt;
+able to access the method&amp;#39;s $this (and should behave as if it were part of the&lt;br&gt;
+method). This didnt work.&lt;br&gt;
+&lt;br&gt;
+Task ID: #&lt;br&gt;
+&lt;br&gt;
+Test Plan:&lt;br&gt;
+fast_tests slow_tests&lt;br&gt;
+&lt;br&gt;
+Reviewed By: qigao&lt;br&gt;
+Reviewers: qigao, myang, macvicar&lt;br&gt;
+CC: ps, mwilliams, qigao&lt;br&gt;
+Differential Revision: 239721&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+      &lt;strong&gt;&lt;span class=&quot;committer&quot;&gt;asharma&lt;/span&gt;&lt;/strong&gt; committed &lt;a href=&quot;/facebook/hiphop-php/commit/cfdfbf80ceb49d4ae6161e669261c63def1cd8e7&quot;&gt;cfdfbf8&lt;/a&gt;
+
+        &lt;div class=&quot;message&quot;&gt;
+          &lt;blockquote&gt;Fix gcc-4.6 related warnings&lt;br&gt;
+&lt;br&gt;
+Summary:&lt;br&gt;
+Code cleanup. Mostly kill unused variables.&lt;br&gt;
+&lt;br&gt;
+Task ID: #542673&lt;br&gt;
+&lt;br&gt;
+Test Plan:&lt;br&gt;
+make fast_tests&lt;br&gt;
+&lt;br&gt;
+540&amp;#47;540 unit tests passed.&lt;br&gt;
+4&amp;#47;1508 unit tests skipped.&lt;br&gt;
+1504&amp;#47;1508 unit tests passed.&lt;br&gt;
+1619&amp;#47;1619 unit tests passed.&lt;br&gt;
+&lt;br&gt;
+Reviewed By: mwilliams&lt;br&gt;
+Reviewers: mwilliams, macvicar&lt;br&gt;
+CC: hphp-eng@lists, hphp-diffs@lists, mpal, ps, mwilliams&lt;br&gt;
+Revert Plan:&lt;br&gt;
+OK&lt;br&gt;
+&lt;br&gt;
+Tags:&lt;br&gt;
+&lt;br&gt;
+- begin *PUBLIC* platform impact section -&lt;br&gt;
+Bugzilla: #&lt;br&gt;
+- end platform impact -&lt;br&gt;
+&lt;br&gt;
+Differential Revision: 239426&lt;/blockquote&gt;
+        &lt;/div&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;more&quot;&gt;&lt;a href=&quot;/facebook/hiphop-php/compare/87fc47762a...8741a6156b&quot;&gt;9 more commits &amp;raquo;&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssuesEvent/1324291043</id>
+    <published>2011-05-01T00:12:04-07:00</published>
+    <updated>2011-05-01T00:12:04-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/facebook/hiphop-php/issues/332"/>
+    <title>sridharsri opened issue 332 on facebook/hiphop-php</title>
+    <author>
+      <name>sridharsri</name>
+          <email>composesridhar@gmail.com</email>
+          <uri>https://github.com/sridharsri</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/829872685c388fc9b154af87ee7f825a?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote&gt;
+      while building hiphop
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1321678083</id>
+    <published>2011-04-29T17:42:30-07:00</published>
+    <updated>2011-04-29T17:42:30-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/facebook/hiphop-php/issues/28#issuecomment-1077984"/>
+    <title>jtarchie commented on issue 28 on facebook/hiphop-php</title>
+    <author>
+      <name>jtarchie</name>
+          <uri>https://github.com/jtarchie</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/12401aebb142896b15d176b1ea34b07c?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote title=&quot;Sorry, checking something. Please ignore closing of bug.&quot;&gt;
+      &lt;p&gt;Sorry, checking something. Please ignore closing of bug.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssuesEvent/1321676209</id>
+    <published>2011-04-29T17:42:13-07:00</published>
+    <updated>2011-04-29T17:42:13-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/facebook/hiphop-php/issues/28"/>
+    <title>jtarchie reopened issue 28 on facebook/hiphop-php</title>
+    <author>
+      <name>jtarchie</name>
+          <uri>https://github.com/jtarchie</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/12401aebb142896b15d176b1ea34b07c?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote&gt;
+      IDL install makefile leaves dirty src/idl directory
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssuesEvent/1321674336</id>
+    <published>2011-04-29T17:41:54-07:00</published>
+    <updated>2011-04-29T17:41:54-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/facebook/hiphop-php/issues/28"/>
+    <title>jtarchie closed issue 28 on facebook/hiphop-php</title>
+    <author>
+      <name>jtarchie</name>
+          <uri>https://github.com/jtarchie</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/12401aebb142896b15d176b1ea34b07c?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote&gt;
+      IDL install makefile leaves dirty src/idl directory
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssuesEvent/1320527670</id>
+    <published>2011-04-29T11:29:47-07:00</published>
+    <updated>2011-04-29T11:29:47-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/facebook/hiphop-php/issues/331"/>
+    <title>regulate opened issue 331 on facebook/hiphop-php</title>
+    <author>
+      <name>regulate</name>
+          <uri>https://github.com/regulate</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/b956ff6517b6b843f5b97449a0e99c7e?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote&gt;
+      Issue compiling ext_imap.cpp
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssuesEvent/1314605848</id>
+    <published>2011-04-28T03:20:21-07:00</published>
+    <updated>2011-04-28T03:20:21-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/facebook/hiphop-php/issues/330"/>
+    <title>inez opened issue 330 on facebook/hiphop-php</title>
+    <author>
+      <name>inez</name>
+          <uri>https://github.com/inez</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/9fa8926f8a3d17dc46699eeed8e1bd0f?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote&gt;
+      EnableEval=2 seems to does not work as expected
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1314120651</id>
+    <published>2011-04-27T23:52:08-07:00</published>
+    <updated>2011-04-27T23:52:08-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/Cocoanetics/NSAttributedString-Additions-for-HTML/issues/19#issuecomment-1068517"/>
+    <title>Cocoanetics commented on issue 19 on Cocoanetics/NSAttributedString-Additions-for-HTML</title>
+    <author>
+      <name>Cocoanetics</name>
+          <email>oliver@drobnik.com</email>
+          <uri>https://github.com/Cocoanetics</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/ac48abfd9468edd1d29f1c97c981e5f5?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote title=&quot;Well, that's Apple's problem now. :-)
+
+Please add your wise comments to the blog article instead because this is issue 19 is closed.
+
+On Apr 28, 2011, at 8:48 AM, scarnie wrote:
+
+&amp;gt; Thanks Oliver.  I am fairly confident it is not a dynamic lib loading issue,
+&amp;gt; because the first API call to CoreText (CTFontDescriptorCreateWithAttributes)
+&amp;gt; is not slow.  When I profiled into core text, it is a lot of code running in
+&amp;gt; freetype library.
+&amp;gt; 
+&amp;gt; Cheers,
+&amp;gt; 
+&amp;gt; Stu
+&amp;gt; 
+&amp;gt; *Stuart Carnie, CTO*
+&amp;gt; *manomio &amp;lt;http://manomio.com/&amp;gt; | in retro we trust!*
+&amp;gt; 
+&amp;gt; 
+&amp;gt; On Wed, Apr 27, 2011 at 11:41 PM, Cocoanetics &amp;lt;
+&amp;gt; reply@reply.github.com&amp;gt;wrote:
+&amp;gt; 
+&amp;gt;&amp;gt; Discussion continues here:
+&amp;gt;&amp;gt; http://www.cocoanetics.com/2011/04/coretext-loading-performance/
+&amp;gt;&amp;gt; 
+&amp;gt;&amp;gt; --
+&amp;gt;&amp;gt; Reply to this email directly or view it on GitHub:
+&amp;gt;&amp;gt; 
+&amp;gt;&amp;gt; https://github.com/Cocoanetics/NSAttributedString-Additions-for-HTML/issues/19#comment_1068485
+&amp;gt;&amp;gt; 
+&amp;gt; 
+&amp;gt; -- 
+&amp;gt; Reply to this email directly or view it on GitHub:
+&amp;gt; https://github.com/Cocoanetics/NSAttributedString-Additions-for-HTML/issues/19#comment_1068506&quot;&gt;
+      &lt;p&gt;Well, that's Apple's problem now. :-) Please add your wise comments to the blog article instead because this is issue 19 is closed.
+&lt;a href=&quot;#&quot;&gt;Show quoted text&lt;/a&gt;On...&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1314108222</id>
+    <published>2011-04-27T23:48:52-07:00</published>
+    <updated>2011-04-27T23:48:52-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/Cocoanetics/NSAttributedString-Additions-for-HTML/issues/19#issuecomment-1068506"/>
+    <title>scarnie commented on issue 19 on Cocoanetics/NSAttributedString-Additions-for-HTML</title>
+    <author>
+      <name>scarnie</name>
+          <email>stuart.carnie@gmail.com</email>
+          <uri>https://github.com/scarnie</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/8e1086eadc88de1e47fbffca9a73fd82?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote title=&quot;Thanks Oliver.  I am fairly confident it is not a dynamic lib loading issue, because the first API call to CoreText (CTFontDescriptorCreateWithAttributes) is not slow.  When I profiled into core text, it is a lot time spent in freetype library.&quot;&gt;
+      &lt;p&gt;Thanks Oliver. I am fairly confident it is not a dynamic lib loading issue, because the first API call to CoreText (CTFontDescriptorCreateWithAttribut...&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1314098703</id>
+    <published>2011-04-27T23:41:39-07:00</published>
+    <updated>2011-04-27T23:41:39-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/Cocoanetics/NSAttributedString-Additions-for-HTML/issues/19#issuecomment-1068485"/>
+    <title>Cocoanetics commented on issue 19 on Cocoanetics/NSAttributedString-Additions-for-HTML</title>
+    <author>
+      <name>Cocoanetics</name>
+          <email>oliver@drobnik.com</email>
+          <uri>https://github.com/Cocoanetics</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/ac48abfd9468edd1d29f1c97c981e5f5?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote title=&quot;Discussion continues here: http://www.cocoanetics.com/2011/04/coretext-loading-performance/&quot;&gt;
+      &lt;p&gt;Discussion continues here: &lt;a href=&quot;http://www.cocoanetics.com/2011/04/coretext-loading-performance/&quot;&gt;http://www.cocoanetics.com/2011/04/coretext-loading-performance/&lt;/a&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1314061118</id>
+    <published>2011-04-27T23:17:41-07:00</published>
+    <updated>2011-04-27T23:17:41-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/Cocoanetics/NSAttributedString-Additions-for-HTML/issues/19#issuecomment-1068408"/>
+    <title>scarnie commented on issue 19 on Cocoanetics/NSAttributedString-Additions-for-HTML</title>
+    <author>
+      <name>scarnie</name>
+          <email>stuart.carnie@gmail.com</email>
+          <uri>https://github.com/scarnie</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/8e1086eadc88de1e47fbffca9a73fd82?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote title=&quot;Indeed, the bug number is rdar://9350255&quot;&gt;
+      &lt;p&gt;Indeed, the bug number is rdar://9350255&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1314052514</id>
+    <published>2011-04-27T23:14:41-07:00</published>
+    <updated>2011-04-27T23:14:41-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/Cocoanetics/NSAttributedString-Additions-for-HTML/issues/19#issuecomment-1068400"/>
+    <title>Cocoanetics commented on issue 19 on Cocoanetics/NSAttributedString-Additions-for-HTML</title>
+    <author>
+      <name>Cocoanetics</name>
+          <email>oliver@drobnik.com</email>
+          <uri>https://github.com/Cocoanetics</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/ac48abfd9468edd1d29f1c97c981e5f5?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote title=&quot;cool, I'll write a blog post momentarily summarizing our findings. What is the # of your Radar so that I can reference it in mine.
+
+On Apr 28, 2011, at 8:12 AM, scarnie wrote:
+
+&amp;gt; Seems strange that it would take that long to load a dynamic lib, but either way I created this [gist](https://gist.github.com/945862) to use GDC to preload.
+&amp;gt; 
+&amp;gt; -- 
+&amp;gt; Reply to this email directly or view it on GitHub:
+&amp;gt; https://github.com/Cocoanetics/NSAttributedString-Additions-for-HTML/issues/19#comment_1068397&quot;&gt;
+      &lt;p&gt;cool, I'll write a blog post momentarily summarizing our findings. What is the # of your Radar so that I can reference it in mine.
+&lt;a href=&quot;#&quot;&gt;Show quoted text&lt;/a&gt;On ...&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1314050751</id>
+    <published>2011-04-27T23:12:54-07:00</published>
+    <updated>2011-04-27T23:12:54-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/Cocoanetics/NSAttributedString-Additions-for-HTML/issues/19#issuecomment-1068397"/>
+    <title>scarnie commented on issue 19 on Cocoanetics/NSAttributedString-Additions-for-HTML</title>
+    <author>
+      <name>scarnie</name>
+          <email>stuart.carnie@gmail.com</email>
+          <uri>https://github.com/scarnie</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/8e1086eadc88de1e47fbffca9a73fd82?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote title=&quot;Seems strange that it would take that long to load a dynamic lib, but either way I created this [gist](https://gist.github.com/945862) to use GDC to preload.&quot;&gt;
+      &lt;p&gt;Seems strange that it would take that long to load a dynamic lib, but either way I created this &lt;a href=&quot;https://gist.github.com/945862&quot;&gt;gist&lt;/a&gt; to use GDC to preload.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1314036447</id>
+    <published>2011-04-27T23:07:29-07:00</published>
+    <updated>2011-04-27T23:07:29-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/Cocoanetics/NSAttributedString-Additions-for-HTML/issues/19#issuecomment-1068381"/>
+    <title>Cocoanetics commented on issue 19 on Cocoanetics/NSAttributedString-Additions-for-HTML</title>
+    <author>
+      <name>Cocoanetics</name>
+          <email>oliver@drobnik.com</email>
+          <uri>https://github.com/Cocoanetics</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/ac48abfd9468edd1d29f1c97c981e5f5?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote title=&quot;I think the problem is that it takes time to load the CoreText dynamic library.
+
+If you perform this very test several times in a row the time drops dramatically:
+
+2011-04-28 07:59:05.725 CoreTextExtensions[1348:707] Start
+2011-04-28 07:59:06.980 CoreTextExtensions[1348:707] Finish
+
+2011-04-28 07:59:06.983 CoreTextExtensions[1348:707] Start
+2011-04-28 07:59:06.995 CoreTextExtensions[1348:707] Finish
+
+2011-04-28 07:59:06.998 CoreTextExtensions[1348:707] Start
+2011-04-28 07:59:07.010 CoreTextExtensions[1348:707] Finish
+
+
+This is on iPhone 4 (3.2.2), 1255 ms down to 12 ms
+
+
+I also tested it with different sizes:
+
+2011-04-28 08:01:30.979 CoreTextExtensions[1360:707] Start
+2011-04-28 08:01:32.229 CoreTextExtensions[1360:707] Finish
+
+2011-04-28 08:01:32.232 CoreTextExtensions[1360:707] Start
+2011-04-28 08:01:32.244 CoreTextExtensions[1360:707] Finish
+
+2011-04-28 08:01:32.248 CoreTextExtensions[1360:707] Start
+2011-04-28 08:01:32.259 CoreTextExtensions[1360:707] Finish
+
+
+No change. only first run is slow.
+
+
+And with different sizes AND different font families:
+
+2011-04-28 08:03:40.112 CoreTextExtensions[1371:707] Start
+2011-04-28 08:03:41.374 CoreTextExtensions[1371:707] Finish
+2011-04-28 08:03:41.378 CoreTextExtensions[1371:707] Start
+2011-04-28 08:03:41.448 CoreTextExtensions[1371:707] Finish
+2011-04-28 08:03:41.451 CoreTextExtensions[1371:707] Start
+2011-04-28 08:03:41.463 CoreTextExtensions[1371:707] Finish
+
+
+
+- (void)testWithSize:(CGFloat)size family:(NSString *)family
+{
+    NSLog(@'Start');
+    NSMutableDictionary *attributes = [NSMutableDictionary dictionary];
+    
+    [attributes setObject:family forKey:(id)kCTFontFamilyNameAttribute];
+
+    [attributes setObject:[NSNumber numberWithFloat:size] forKey:(id)kCTFontSizeAttribute];
+    CTFontDescriptorRef fontDesc = CTFontDescriptorCreateWithAttributes((CFDictionaryRef)attributes);
+    CTFontRef matchingFont = CTFontCreateWithFontDescriptor(fontDesc, size, NULL);
+    CFRelease(matchingFont);
+    CFRelease(fontDesc);
+    NSLog(@'Finish');
+}
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions 
+{
+    [self testWithSize:10 family:@'Courier New'];
+    [self testWithSize:20 family:@'Georgia'];
+    [self testWithSize:30 family:@'Helvetica'];
+
+
+2011-04-28 08:05:12.555 CoreTextExtensions[1382:707] Start
+2011-04-28 08:05:13.839 CoreTextExtensions[1382:707] Finish
+2011-04-28 08:05:13.843 CoreTextExtensions[1382:707] Start
+2011-04-28 08:05:13.882 CoreTextExtensions[1382:707] Finish
+2011-04-28 08:05:13.885 CoreTextExtensions[1382:707] Start
+2011-04-28 08:05:13.898 CoreTextExtensions[1382:707] Finish
+
+
+Same result. So the problem - and this is what you should put into your Radar - is that the initialization of the dynamic library is slow. One workaround might be to do something in background that triggers loading of the library without affecting the startup time of the app as well as having CoreText loaded and ready to go when you need it.
+
+cheers
+Oliver
+
+On Apr 28, 2011, at 7:57 AM, scarnie wrote:
+
+&amp;gt; On device is where the problem lies - in simulator it is fine.  I have and iPad 2 (6-700ms) and iPad (1200ms) both on 4.3.  I don't think I have any devices left below that :)
+&amp;gt; 
+&amp;gt; -- 
+&amp;gt; Reply to this email directly or view it on GitHub:
+&amp;gt; https://github.com/Cocoanetics/NSAttributedString-Additions-for-HTML/issues/19#comment_1068353&quot;&gt;
+      &lt;p&gt;I think the problem is that it takes time to load the CoreText dynamic library. If you perform this very test several times in a row the time drops dr...&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1314031165</id>
+    <published>2011-04-27T23:01:15-07:00</published>
+    <updated>2011-04-27T23:01:15-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/Cocoanetics/NSAttributedString-Additions-for-HTML/issues/19#issuecomment-1068359"/>
+    <title>scarnie commented on issue 19 on Cocoanetics/NSAttributedString-Additions-for-HTML</title>
+    <author>
+      <name>scarnie</name>
+          <email>stuart.carnie@gmail.com</email>
+          <uri>https://github.com/scarnie</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/8e1086eadc88de1e47fbffca9a73fd82?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote title=&quot;I have also raised the issue on the [Apple dev forums](https://devforums.apple.com/message/424787#424787) and created a bug report.&quot;&gt;
+      &lt;p&gt;I have also raised the issue on the &lt;a href=&quot;https://devforums.apple.com/message/424787#424787&quot;&gt;Apple dev forums&lt;/a&gt; and created a bug report.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1314028537</id>
+    <published>2011-04-27T22:57:11-07:00</published>
+    <updated>2011-04-27T22:57:11-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/Cocoanetics/NSAttributedString-Additions-for-HTML/issues/19#issuecomment-1068353"/>
+    <title>scarnie commented on issue 19 on Cocoanetics/NSAttributedString-Additions-for-HTML</title>
+    <author>
+      <name>scarnie</name>
+          <email>stuart.carnie@gmail.com</email>
+          <uri>https://github.com/scarnie</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/8e1086eadc88de1e47fbffca9a73fd82?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote title=&quot;On device is where the problem lies - in simulator it is fine.  I have and iPad 2 (6-700ms) and iPad (1200ms) both on 4.3.  I don't think I have any devices left below that :)&quot;&gt;
+      &lt;p&gt;On device is where the problem lies - in simulator it is fine. I have and iPad 2 (6-700ms) and iPad (1200ms) both on 4.3. I don't think I have any dev...&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1314025728</id>
+    <published>2011-04-27T22:55:09-07:00</published>
+    <updated>2011-04-27T22:55:09-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/Cocoanetics/NSAttributedString-Additions-for-HTML/issues/19#issuecomment-1068349"/>
+    <title>Cocoanetics commented on issue 19 on Cocoanetics/NSAttributedString-Additions-for-HTML</title>
+    <author>
+      <name>Cocoanetics</name>
+          <email>oliver@drobnik.com</email>
+          <uri>https://github.com/Cocoanetics</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/ac48abfd9468edd1d29f1c97c981e5f5?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote title=&quot;can you try it on different OSs, SDKs and on device?
+
+I'll try and see if I can reproduce it.
+
+On Apr 28, 2011, at 7:51 AM, scarnie wrote:
+
+&amp;gt; No, Helvetica.  Here is a reproducible sample:
+&amp;gt; 
+&amp;gt; ```objc
+&amp;gt; NSMutableDictionary *attributes = [NSMutableDictionary dictionary];
+&amp;gt;    [attributes setObject:@'Helvetica' forKey:(id)kCTFontFamilyNameAttribute];
+&amp;gt;    [attributes setObject:[NSNumber numberWithFloat:36.0f] forKey:(id)kCTFontSizeAttribute];
+&amp;gt;    CTFontDescriptorRef fontDesc = CTFontDescriptorCreateWithAttributes((CFDictionaryRef)attributes);
+&amp;gt;    CTFontRef matchingFont = CTFontCreateWithFontDescriptor(fontDesc, 36.0f, NULL);
+&amp;gt;    CFRelease(matchingFont);
+&amp;gt;    CFRelease(fontDesc);
+&amp;gt; ```
+&amp;gt; 
+&amp;gt; -- 
+&amp;gt; Reply to this email directly or view it on GitHub:
+&amp;gt; https://github.com/Cocoanetics/NSAttributedString-Additions-for-HTML/issues/19#comment_1068341&quot;&gt;
+      &lt;p&gt;can you try it on different OSs, SDKs and on device? I'll try and see if I can reproduce it.
+&lt;a href=&quot;#&quot;&gt;Show quoted text&lt;/a&gt;On Apr 28, 2011, at 7:51 AM, scarnie wrot...&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1314023122</id>
+    <published>2011-04-27T22:51:26-07:00</published>
+    <updated>2011-04-27T22:51:26-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/Cocoanetics/NSAttributedString-Additions-for-HTML/issues/19#issuecomment-1068341"/>
+    <title>scarnie commented on issue 19 on Cocoanetics/NSAttributedString-Additions-for-HTML</title>
+    <author>
+      <name>scarnie</name>
+          <email>stuart.carnie@gmail.com</email>
+          <uri>https://github.com/scarnie</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/8e1086eadc88de1e47fbffca9a73fd82?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote title=&quot;No, Helvetica.  Here is a reproducible sample:
+
+```objc
+NSMutableDictionary *attributes = [NSMutableDictionary dictionary];
+[attributes setObject:@'Helvetica' forKey:(id)kCTFontFamilyNameAttribute];
+[attributes setObject:[NSNumber numberWithFloat:36.0f] forKey:(id)kCTFontSizeAttribute];
+CTFontDescriptorRef fontDesc = CTFontDescriptorCreateWithAttributes((CFDictionaryRef)attributes);
+CTFontRef matchingFont = CTFontCreateWithFontDescriptor(fontDesc, 36.0f, NULL);
+CFRelease(matchingFont);
+CFRelease(fontDesc);
+```
+
+I don't think it is your issue - it is definitely something to do with iOS.  Perhaps introduced in 4.3?&quot;&gt;
+      &lt;p&gt;No, Helvetica. Here is a reproducible sample: NSMutableDictionary *attributes = [NSMutableDictionary dictionary];
+[attributes setObject:@&quot;Helvetica&quot; f...&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1313931774</id>
+    <published>2011-04-27T21:57:20-07:00</published>
+    <updated>2011-04-27T21:57:20-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/Cocoanetics/NSAttributedString-Additions-for-HTML/issues/19#issuecomment-1068220"/>
+    <title>Cocoanetics commented on issue 19 on Cocoanetics/NSAttributedString-Additions-for-HTML</title>
+    <author>
+      <name>Cocoanetics</name>
+          <email>oliver@drobnik.com</email>
+          <uri>https://github.com/Cocoanetics</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/ac48abfd9468edd1d29f1c97c981e5f5?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote title=&quot;Are you maybe using a custom font? Those take some time to load from disk.
+
+On Apr 28, 2011, at 6:49 AM, scarnie wrote:
+
+&amp;gt; I too am trying to figure this out, as it is taking several seconds in my app too.  I'll post more when I find what the cause is.
+&amp;gt; 
+&amp;gt; -- 
+&amp;gt; Reply to this email directly or view it on GitHub:
+&amp;gt; https://github.com/Cocoanetics/NSAttributedString-Additions-for-HTML/issues/19#comment_1068207&quot;&gt;
+      &lt;p&gt;Are you maybe using a custom font? Those take some time to load from disk.
+&lt;a href=&quot;#&quot;&gt;Show quoted text&lt;/a&gt;On Apr 28, 2011, at 6:49 AM, scarnie wrote: &amp;gt; I too am tryi...&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1313921896</id>
+    <published>2011-04-27T21:49:27-07:00</published>
+    <updated>2011-04-27T21:49:27-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/Cocoanetics/NSAttributedString-Additions-for-HTML/issues/19#issuecomment-1068207"/>
+    <title>scarnie commented on issue 19 on Cocoanetics/NSAttributedString-Additions-for-HTML</title>
+    <author>
+      <name>scarnie</name>
+          <email>stuart.carnie@gmail.com</email>
+          <uri>https://github.com/scarnie</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/8e1086eadc88de1e47fbffca9a73fd82?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote title=&quot;I too am trying to figure this out, as it is taking several seconds in my app too.  I'll post more when I find what the cause is.&quot;&gt;
+      &lt;p&gt;I too am trying to figure this out, as it is taking several seconds in my app too. I'll post more when I find what the cause is.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1313008980</id>
+    <published>2011-04-27T16:01:07-07:00</published>
+    <updated>2011-04-27T16:01:07-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/facebook/hiphop-php/pull/306#issuecomment-1067216"/>
+    <title>Jostein commented on pull request 306 on facebook/hiphop-php</title>
+    <author>
+      <name>Jostein</name>
+          <email>jostein@huglen.info</email>
+          <uri>https://github.com/Jostein</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/c88aa0bd303083b9b36172ddd89d8ad1?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote title=&quot;Even better! Thanks :)&quot;&gt;
+      &lt;p&gt;Even better! Thanks :)&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PullRequestEvent/1311409273</id>
+    <published>2011-04-27T08:43:20-07:00</published>
+    <updated>2011-04-27T08:43:20-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/facebook/hiphop-php/pull/329"/>
+    <title>udat opened pull request 329 on facebook/hiphop-php</title>
+    <author>
+      <name>udat</name>
+          <uri>https://github.com/udat</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/a5da4cc2a272cabc6e48fe6702ace9b4?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote&gt;Add support for null_string as last argument to f_stream_socket_sendto&lt;/blockquote&gt;
+    1 commit with 
+    30 additions and 
+    1 deletion
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1311391137</id>
+    <published>2011-04-27T08:42:26-07:00</published>
+    <updated>2011-04-27T08:42:26-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/facebook/hiphop-php/issues/324#issuecomment-1065021"/>
+    <title>udat commented on issue 324 on facebook/hiphop-php</title>
+    <author>
+      <name>udat</name>
+          <uri>https://github.com/udat</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/a5da4cc2a272cabc6e48fe6702ace9b4?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote title=&quot;This should by fixed in udat@10f614c79b585ef01907ee72332f62db845e371 in [my fork](http://github.com/udat/hiphop-php) (branch [issue324](https://github.com/udat/hiphop-php/tree/issue324)). I used following test case (with cassandra-0.7.4):
+
+```php
+
+&amp;lt;?php
+require 'connection.php';
+$servers[0] = array('host' =&amp;gt; '127.0.0.1', 'port'=&amp;gt;9160); 
+
+try {
+    $conn = new Connection('Keyspace1', $servers); 
+} catch (Exception $e) {
+    print_r($e); 
+}
+```
+
+&quot;&gt;
+      &lt;p&gt;This should by fixed in &lt;a href=&quot;https://github.com/udat/hiphop-php/commit/10f614c79b585ef01907ee72332f62db845e371&quot;&gt;udat@10f614c&lt;/a&gt; in &lt;a href=&quot;https://github.com/udat/hiphop-php&quot;&gt;my fork&lt;/a&gt; (branch &lt;a href=&quot;https://github.com/udat/hiphop-php/tree/issue324&quot;&gt;issue324&lt;/a&gt;). I used following test case (with cassandra-0.7.4): &amp;lt;?php
+require 'connection.php';
+&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1311027656</id>
+    <published>2011-04-27T07:37:31-07:00</published>
+    <updated>2011-04-27T07:37:31-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/facebook/hiphop-php/issues/307#issuecomment-1064566"/>
+    <title>andreasdr commented on issue 307 on facebook/hiphop-php</title>
+    <author>
+      <name>andreasdr</name>
+          <uri>https://github.com/andreasdr</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/0ca76c3b0104e2ad02df5a7180f78816?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote title=&quot;Creating a virtual host does help!
+
+VirtualHost {
+	your-host {
+		Disabled = false
+		Pattern = .*
+	}
+}
+&quot;&gt;
+      &lt;p&gt;Creating a virtual host does help! VirtualHost { your-host { Disabled = false Pattern = .* }
+}&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssuesEvent/1311015494</id>
+    <published>2011-04-27T07:34:36-07:00</published>
+    <updated>2011-04-27T07:34:36-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/facebook/hiphop-php/issues/328"/>
+    <title>andreasdr opened issue 328 on facebook/hiphop-php</title>
+    <author>
+      <name>andreasdr</name>
+          <uri>https://github.com/andreasdr</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/0ca76c3b0104e2ad02df5a7180f78816?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote&gt;
+      PDOException without backtrace
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1310171316</id>
+    <published>2011-04-27T04:33:02-07:00</published>
+    <updated>2011-04-27T04:33:02-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/facebook/hiphop-php/issues/324#issuecomment-1063711"/>
+    <title>udat commented on issue 324 on facebook/hiphop-php</title>
+    <author>
+      <name>udat</name>
+          <uri>https://github.com/udat</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/a5da4cc2a272cabc6e48fe6702ace9b4?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote title=&quot;The problem is that PHPCassa uses newer Thrift version which uses `stream_socket_sendto` instead of  `fwrite` and HipHop `stream_socket_sendto` implementation is buggy.
+
+
+&quot;&gt;
+      &lt;p&gt;The problem is that PHPCassa uses newer Thrift version which uses &lt;code&gt;stream_socket_sendto&lt;/code&gt; instead of &lt;code&gt;fwrite&lt;/code&gt; and HipHop &lt;code&gt;stream_socket_sendto&lt;/code&gt; implementatio...&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:GollumEvent/1310094618</id>
+    <published>2011-04-27T04:05:11-07:00</published>
+    <updated>2011-04-27T04:05:11-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/facebook/hiphop-php/wiki/Unimplemented-Functions"/>
+    <title>artur-graniszewski edited Unimplemented-Functions in the facebook/hiphop-php wiki</title>
+    <author>
+      <name>artur-graniszewski</name>
+          <uri>https://github.com/artur-graniszewski</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/8f3cab210c9fd7b8884fde70be5a817b?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+        &lt;a href=&quot;/facebook/hiphop-php/wiki/Unimplemented-Functions/_compare/f567058^...f567058&quot;&gt;See what changed →&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssueCommentEvent/1309939452</id>
+    <published>2011-04-27T02:48:27-07:00</published>
+    <updated>2011-04-27T02:48:27-07:00</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/facebook/hiphop-php/issues/324#issuecomment-1063384"/>
+    <title>artur-graniszewski commented on issue 324 on facebook/hiphop-php</title>
+    <author>
+      <name>artur-graniszewski</name>
+          <uri>https://github.com/artur-graniszewski</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://secure.gravatar.com/avatar/8f3cab210c9fd7b8884fde70be5a817b?s=30&amp;d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"/>
+    <content type="html">
+
+&lt;div class=&quot;details&quot;&gt;
+  
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote title=&quot;Try to increase the verbosity of your application by adding these flags:
+
+-v 'Log.Level=Verbose' This will output a lot more errors, warnings and information.
+-v 'Log.NoSilencer=on' This prints out errors from statements that have “@” operators, which WordPress code uses a lot.
+
+Maybe this will give us some additional info.&quot;&gt;
+      &lt;p&gt;Try to increase the verbosity of your application by adding these flags: -v &quot;Log.Level=Verbose&quot; This will output a lot more errors, warnings and infor...&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+</feed>
+

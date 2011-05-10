@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+  xmlns="http://www.w3.org/2005/Atom"
+  xmlns:thr="http://purl.org/syndication/thread/1.0"
+  xml:lang="en"
+  xml:base="http://www.mittsaldo.se/wp-atom.php"
+   >
+	<title type="text">Mitt Saldo</title>
+	<subtitle type="text">En multibank-app for iPhone och iPad, utvecklad av Bjorn Sallarp</subtitle>
+	<updated>2011-04-27T20:38:55Z</updated>
+	<link rel="alternate" type="text/html" href="http://www.mittsaldo.se" />
+	<id>http://www.mittsaldo.se/feed/atom/</id>
+	<link rel="self" type="application/atom+xml" href="http://www.mittsaldo.se/feed/atom/" />
+	<generator uri="http://wordpress.org/" version="3.1">WordPress</generator>
+	<contributor>
+		<name>Bjorn Sallarp</name>
+		<uri>http://blog.sallarp.com</uri>
+		<email>bjorn.sallarp@gmail.com</email>
+    </contributor>
+    <contributor>
+		<name>Fake Person</name>
+		<email>fake.person@anonymous.com</email>
+    </contributor>
+    <icon>icon.png</icon>
+    <logo>logo.png</logo>
+	<entry>
+		<author>
+			<name>Bjorn Sallarp</name>
+			<uri>http://blog.sallarp.com</uri>
+			<email>bjorn.sallarp@gmail.com</email>
+		</author>
+		<title type="html"><![CDATA[Mitt Saldo 2.2 ute på appstore. Mitt Saldo 2.3 på väg till din iPhone!]]></title>
+		<link rel="alternate" type="text/html" href="http://www.mittsaldo.se/mitt-saldo-2-2-ute-pa-appstore-mitt-saldo-2-3-pa-vag-till-din-iphone/" />
+		<id>http://www.mittsaldo.se/?p=1167</id>
+		<updated>2011-04-19T05:47:07Z</updated>
+		<published>2011-04-19T05:47:07Z</published>
+		<category scheme="http://www.mittsaldo.se" term="Nyheter" />
+		<category scheme="http://www.mittsaldo.se" term="nyhet" />		
+		<summary type="html"><![CDATA[I natt gick uppdateringen äntligen igenom, Swedbank fungerar igen! Tyvärr gick ICA Banken ut med en större uppdatering två dagar efter jag skickat in version 2.2 till Apple. Version 2.3 redan färdigställd och inskickad till Apple nu på morgonen och &#8230; <a href="http://www.mittsaldo.se/mitt-saldo-2-2-ute-pa-appstore-mitt-saldo-2-3-pa-vag-till-din-iphone/">Läs mer <span class="meta-nav">&#8594;</span></a><p><a href="http://www.mittsaldo.se/mitt-saldo-2-2-ute-pa-appstore-mitt-saldo-2-3-pa-vag-till-din-iphone/">Mitt Saldo 2.2 ute på appstore. Mitt Saldo 2.3 på väg till din iPhone!</a> är en bloggpost från: <a href="http://www.mittsaldo.se">Mitt Saldo</a></p>
+]]></summary>
+		<content type="html" xml:base="http://www.mittsaldo.se/mitt-saldo-2-2-ute-pa-appstore-mitt-saldo-2-3-pa-vag-till-din-iphone/"><![CDATA[
+
+<!-- wp-jquery-lightbox, a WordPress plugin by ulfben --> 
+<p>I natt gick uppdateringen äntligen igenom, <a href="http://www.mittsaldo.se/banker/swedbank/">Swedbank</a> fungerar igen! Tyvärr gick <a href="http://www.mittsaldo.se/banker/ica-banken/">ICA Banken</a> ut med en större uppdatering två dagar efter jag skickat in version 2.2 till Apple.</p>
+<p><img class="alignleft size-medium wp-image-1168" title="Mitt Saldo 2.3" src="http://www.mittsaldo.se/wp-content/uploads/2011/04/Mitt-Saldo-2.3-155x300.png" alt="Mitt Saldo 2.3 155x300 Mitt Saldo 2.2 ute på appstore. Mitt Saldo 2.3 på väg till din iPhone!" width="155" height="300" /></p>
+<p>Version 2.3 redan färdigställd och inskickad till Apple nu på morgonen och den fungerar med nya <a href="http://www.mittsaldo.se/banker/ica-banken/">ICA Banken</a>. Dessutom har 2.3 en ny bokmärkesfunktion som gör att de som inte vill hamna på överföringssidan direkt i mobilbanken kan sätta ett bokmärke på godtycklig sida som ska öppnas direkt istället. Det har också skett en mindre förändring i gränssnittet på mobilbanken. Ladd- och adress-indikatorn har flyttat ner under webbläsarfönstret. När sidan laddat klart dyker bokmärk-knappen upp (se bild).</p>
+<p>Nu är det bara att vänta igen. Nästan exakt 5 dagar tog det för version 2.2 att godkännas. Här är statusloggen från iTunesconnect:</p>
+<p>&nbsp;</p>
+
+<table border="0" cellspacing="0" cellpadding="0">
+<thead>
+<tr>
+<th>Date</th>
+<th>User</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>April 18, 2011 19:10</td>
+<td>Apple</td>
+
+<td>Ready for Sale</td>
+</tr>
+<tr>
+<td>April 18, 2011 18:27</td>
+<td>Apple</td>
+<td>Processing for App Store</td>
+</tr>
+<tr>
+<td>April 18, 2011 18:07</td>
+<td>Apple</td>
+<td>
+
+<div>In Review</div>
+</td>
+</tr>
+<tr>
+<td>April 13, 2011 13:43</td>
+<td>Apple</td>
+<td>Waiting For Review</td>
+</tr>
+<tr>
+<td>April 13, 2011 13:42</td>
+<td>Apple</td>
+
+<td>Upload Received</td>
+</tr>
+<tr>
+<td>April 13, 2011 13:40</td>
+<td>bjorn.sallarp@gmail.com</td>
+<td>Waiting For Upload</td>
+</tr>
+<tr>
+<td>April 13, 2011 13:28</td>
+<td>bjorn.sallarp@gmail.com</td>
+<td>Prepare for Upload</td>
+
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p><a href="http://www.mittsaldo.se/mitt-saldo-2-2-ute-pa-appstore-mitt-saldo-2-3-pa-vag-till-din-iphone/">Mitt Saldo 2.2 ute på appstore. Mitt Saldo 2.3 på väg till din iPhone!</a> är en bloggpost från: <a href="http://www.mittsaldo.se">Mitt Saldo</a></p>
+]]></content>
+		<link rel="replies" type="text/html" href="http://www.mittsaldo.se/mitt-saldo-2-2-ute-pa-appstore-mitt-saldo-2-3-pa-vag-till-din-iphone/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="http://www.mittsaldo.se/mitt-saldo-2-2-ute-pa-appstore-mitt-saldo-2-3-pa-vag-till-din-iphone/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>Bjorn Sallarp</name>
+						<uri>http://blog.sallarp.com</uri>
+					</author>
+		<title type="html"><![CDATA[Mitt Saldo v2.2 på väg till din iPhone]]></title>
+		<link rel="alternate" type="text/html" href="http://www.mittsaldo.se/mitt-saldo-v2-2-pa-vag-till-din-iphone/" />
+		<id>http://www.mittsaldo.se/?p=1156</id>
+		<updated>2011-04-19T05:49:30Z</updated>
+		<published>2011-04-13T20:59:10Z</published>
+		<category scheme="http://www.mittsaldo.se" term="Nyheter" /><category scheme="http://www.mittsaldo.se" term="nyhet" /><category scheme="http://www.mittsaldo.se" term="Swedbank" />		<summary type="html"><![CDATA[Uppdateringen som Swedbank gjorde tidig morgon 2011-04-12 ställde till det för Mitt Saldo. Den nya mobilbanken har inloggning som sker i två steg där man först anger personnummer, väljer inloggningssätt och sedan anger lösenord. Utöver förenklad inloggning man nu också &#8230; <a href="http://www.mittsaldo.se/mitt-saldo-v2-2-pa-vag-till-din-iphone/">Läs mer <span class="meta-nav">&#8594;</span></a><p><a href="http://www.mittsaldo.se/mitt-saldo-v2-2-pa-vag-till-din-iphone/">Mitt Saldo v2.2 på väg till din iPhone</a> är en bloggpost från: <a href="http://www.mittsaldo.se">Mitt Saldo</a></p>
+]]></summary>
+		<content type="html" xml:base="http://www.mittsaldo.se/mitt-saldo-v2-2-pa-vag-till-din-iphone/"><![CDATA[
+
+<!-- wp-jquery-lightbox, a WordPress plugin by ulfben --> 
+<p><a title="Swedbank uppdaterar mobilbanken" href="http://www.mittsaldo.se/forandringar-pa-gang-hos-swedbank/">Uppdateringen som Swedbank gjorde</a> tidig morgon 2011-04-12 ställde till det för Mitt Saldo. Den nya mobilbanken har inloggning som sker i två steg där man först anger personnummer, väljer inloggningssätt och sedan anger lösenord. Utöver förenklad inloggning man nu också logga in på deras mobilbank med sin digipass. De har även passat på att uppdatera utseendet genom hela mobilbanken.</p>
+<p><img class="alignright size-medium wp-image-1157" title="mittsaldo väntar på godkännande" src="http://www.mittsaldo.se/wp-content/uploads/2011/04/mittsaldo-waiting-for-review-300x146.png" alt="mittsaldo waiting for review 300x146 Mitt Saldo v2.2 på väg till din iPhone" width="300" height="146" /></p>
+<p>Precis nyss pushades koden för Mitt Saldo v2.2 till <a title="Källkoden för Mitt Saldo på GitHub" href="https://github.com/bjornsallarp/Mitt-Saldo">GitHub</a> och den nya versionen skickads in till Apple. Nu är det bara att vänta&#8230; Det brukar ta minst en vecka för en uppdatering att passera igenom.</p>
+<p><a href="http://www.mittsaldo.se/mitt-saldo-v2-2-pa-vag-till-din-iphone/">Mitt Saldo v2.2 på väg till din iPhone</a> är en bloggpost från: <a href="http://www.mittsaldo.se">Mitt Saldo</a></p>
+]]></content>
+		<link rel="replies" type="text/html" href="http://www.mittsaldo.se/mitt-saldo-v2-2-pa-vag-till-din-iphone/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="http://www.mittsaldo.se/mitt-saldo-v2-2-pa-vag-till-din-iphone/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>Bjorn Sallarp</name>
+						<uri>http://blog.sallarp.com</uri>
+					</author>
+		<title type="html"><![CDATA[Tillfälligt avbrott hos Nordea]]></title>
+		<link rel="alternate" type="text/html" href="http://www.mittsaldo.se/tillfalligt-avbrott-hos-nordea/" />
+		<id>http://www.mittsaldo.se/?p=1144</id>
+		<updated>2011-04-19T05:49:53Z</updated>
+		<published>2011-04-11T17:01:10Z</published>
+		<category scheme="http://www.mittsaldo.se" term="Nyheter" /><category scheme="http://www.mittsaldo.se" term="Nordea" /><category scheme="http://www.mittsaldo.se" term="nyhet" />		<summary type="html"><![CDATA[De verkar ha problem hos Nordea med mobilbanken för tillfället. Jag får upp följande information när jag försöker logga in med webbläsaren: Mitt Saldo bör fungera när de löst problemet och förhoppningsvis är de snabba. Anders rapporterade in att det &#8230; <a href="http://www.mittsaldo.se/tillfalligt-avbrott-hos-nordea/">Läs mer <span class="meta-nav">&#8594;</span></a><p><a href="http://www.mittsaldo.se/tillfalligt-avbrott-hos-nordea/">Tillfälligt avbrott hos Nordea</a> är en bloggpost från: <a href="http://www.mittsaldo.se">Mitt Saldo</a></p>
+]]></summary>
+		<content type="html" xml:base="http://www.mittsaldo.se/tillfalligt-avbrott-hos-nordea/"><![CDATA[
+
+<!-- wp-jquery-lightbox, a WordPress plugin by ulfben --> 
+<p>De verkar ha problem hos <a href="http://www.mittsaldo.se/banker/nordea/">Nordea</a> med mobilbanken för tillfället. Jag får upp följande information när jag försöker logga in med webbläsaren:</p>
+<p><a href="http://www.mittsaldo.se/wp-content/uploads/2011/04/Nordea-tillfälligt-avbrott.png" rel="lightbox[1144]"><img class="alignnone size-medium wp-image-1145" title="Nordea tillfälligt avbrott" src="http://www.mittsaldo.se/wp-content/uploads/2011/04/Nordea-tillfälligt-avbrott-300x189.png" alt="Nordea tillfälligt avbrott 300x189 Tillfälligt avbrott hos Nordea" width="300" height="189" /></a></p>
+<p>Mitt Saldo bör fungera när de löst problemet och förhoppningsvis är de snabba. Anders rapporterade in att det var problem redan kl 16:45.</p>
+<p><strong>UPPDATERING 2011/04/12:<br />
+</strong><a href="http://www.mittsaldo.se/banker/nordea/">Nordea</a> har löst problemen och Mitt Saldo fungerar som vanligt.</p>
+
+<p><a href="http://www.mittsaldo.se/tillfalligt-avbrott-hos-nordea/">Tillfälligt avbrott hos Nordea</a> är en bloggpost från: <a href="http://www.mittsaldo.se">Mitt Saldo</a></p>
+]]></content>
+		<link rel="replies" type="text/html" href="http://www.mittsaldo.se/tillfalligt-avbrott-hos-nordea/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="http://www.mittsaldo.se/tillfalligt-avbrott-hos-nordea/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>Bjorn Sallarp</name>
+						<uri>http://blog.sallarp.com</uri>
+					</author>
+		<title type="html"><![CDATA[Förändringar på gång hos Swedbank]]></title>
+		<link rel="alternate" type="text/html" href="http://www.mittsaldo.se/forandringar-pa-gang-hos-swedbank/" />
+		<id>http://www.mittsaldo.se/?p=1129</id>
+		<updated>2011-04-19T05:50:15Z</updated>
+		<published>2011-04-10T07:55:01Z</published>
+		<category scheme="http://www.mittsaldo.se" term="Nyheter" /><category scheme="http://www.mittsaldo.se" term="nyhet" /><category scheme="http://www.mittsaldo.se" term="Swedbank" />		<summary type="html"><![CDATA[Swedbank har flaggat för att det kommer att uppdatera sin mobilbank inom kort. Detta kommer med stor sannolikhet att påverka Mitt Saldo och resultera i att Swedbank slutar att fungera. Givetvis kommer jag så snabbt som möjligt att uppdatera applikationen så det &#8230; <a href="http://www.mittsaldo.se/forandringar-pa-gang-hos-swedbank/">Läs mer <span class="meta-nav">&#8594;</span></a><p><a href="http://www.mittsaldo.se/forandringar-pa-gang-hos-swedbank/">Förändringar på gång hos Swedbank</a> är en bloggpost från: <a href="http://www.mittsaldo.se">Mitt Saldo</a></p>
+]]></summary>
+		<content type="html" xml:base="http://www.mittsaldo.se/forandringar-pa-gang-hos-swedbank/"><![CDATA[
+
+<!-- wp-jquery-lightbox, a WordPress plugin by ulfben --> 
+<p><a href="http://www.mittsaldo.se/banker/swedbank/">Swedbank</a> har flaggat för att det kommer att uppdatera sin mobilbank inom kort. Detta kommer med stor sannolikhet att påverka Mitt Saldo och resultera i att <a href="http://www.mittsaldo.se/banker/swedbank/">Swedbank</a> slutar att fungera. Givetvis kommer jag så snabbt som möjligt att uppdatera applikationen så det fungerar med Swedbank efter uppdateringen. Tyvärr tar det ju nästan en vecka att få en uppdatering godkänd i App Store. Här är meddelandet från Swedbank om ni inte loggat in i internetbanken och uppmärksammat det själva än.</p>
+<blockquote><p>Hej,</p>
+<p>Under våren inför vi ett flertal nya tjänster i Mobilbanken som vi hoppas kommer att förenkla vardagen för dig. Du kommer till exempel få möjlighet att göra överföringar till andras konton och betala räkningar direkt i mobilen.</p>
+<p>Precis som i internetbanken kommer du kunna logga in med din säkerhetsdosa eller BankID i mobil om du redan har det. Genom att använda din säkerhetsdosa eller BankID i mobil kommer du kunna betala räkningar och göra överföringar till andras konton i mobilbanken.</p>
+<p>Självklart kan du använda din personliga kod som tidigare för enklare bankärenden. Därför kommer inloggningssidan till Mobilbanken ha ett nytt utseende och du väljer i en rullista hur du vill logga in.</p>
+<p>Håll utkik efter våra nyheter i din mobil!</p>
+
+<p>Med vänlig hälsning<br />
+Swedbank</p></blockquote>
+<p><a href="http://www.mittsaldo.se/forandringar-pa-gang-hos-swedbank/">Förändringar på gång hos Swedbank</a> är en bloggpost från: <a href="http://www.mittsaldo.se">Mitt Saldo</a></p>
+]]></content>
+		<link rel="replies" type="text/html" href="http://www.mittsaldo.se/forandringar-pa-gang-hos-swedbank/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="http://www.mittsaldo.se/forandringar-pa-gang-hos-swedbank/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>Bjorn Sallarp</name>
+						<uri>http://blog.sallarp.com</uri>
+					</author>
+		<title type="html"><![CDATA[Mitt Saldo passerar 20 000 nedladdningar]]></title>
+		<link rel="alternate" type="text/html" href="http://www.mittsaldo.se/mitt-saldo-passerar-20000-nedladdningar/" />
+		<id>http://www.mittsaldo.se/?p=16</id>
+		<updated>2011-04-19T05:50:38Z</updated>
+		<published>2011-04-02T17:10:28Z</published>
+		<category scheme="http://www.mittsaldo.se" term="Nyheter" /><category scheme="http://www.mittsaldo.se" term="nyhet" />		<summary type="html"><![CDATA[Smått fantastiskt att så många laddat ner applikationen! Nedladdningsstatistik från AppStore uppdateras automatiskt en gång per dag och presenteras på statistiksidan. Mitt Saldo passerar 20 000 nedladdningar är en bloggpost från: Mitt Saldo<p><a href="http://www.mittsaldo.se/mitt-saldo-passerar-20000-nedladdningar/">Mitt Saldo passerar 20 000 nedladdningar</a> är en bloggpost från: <a href="http://www.mittsaldo.se">Mitt Saldo</a></p>
+]]></summary>
+		<content type="html" xml:base="http://www.mittsaldo.se/mitt-saldo-passerar-20000-nedladdningar/"><![CDATA[
+
+<!-- wp-jquery-lightbox, a WordPress plugin by ulfben --> 
+<p>Smått fantastiskt att så många laddat ner applikationen! Nedladdningsstatistik från AppStore uppdateras automatiskt en gång per dag och presenteras på <a title="Statistik" href="http://www.mittsaldo.se/om/statistik/">statistiksidan</a>.</p>
+<p><a href="http://www.mittsaldo.se/mitt-saldo-passerar-20000-nedladdningar/">Mitt Saldo passerar 20 000 nedladdningar</a> är en bloggpost från: <a href="http://www.mittsaldo.se">Mitt Saldo</a></p>
+]]></content>
+		<link rel="replies" type="text/html" href="http://www.mittsaldo.se/mitt-saldo-passerar-20000-nedladdningar/#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="http://www.mittsaldo.se/mitt-saldo-passerar-20000-nedladdningar/feed/atom/" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+	</feed>
+
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Minified using disk
+Page Caching using disk (enhanced)
+Database Caching using memcached
+Object Caching 902/910 objects using disk
+
+Served from: www.mittsaldo.se @ 2011-05-07 08:02:22 -->

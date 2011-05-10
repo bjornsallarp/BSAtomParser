@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xml:lang="sv-se">
+	<title>Valtech - mina gruppers poster</title>
+	<link href="http://intranet.valtech.se/" rel="alternate"/>
+	<link href="http://intranet.valtech.se/feeds/user/bjorn.sallarp,50d39e657cbfaea4daa1a5fb8151c360" rel="self"/>
+	<id>http://intranet.valtech.se/</id>
+	<updated>2011-05-02T07:50:46+02:00</updated>
+	<entry>
+		<title>Vill du jobba med webboptimering och webbanalys?</title>
+		<link href="http://intranet.valtech.se/groups/valtech/posts/vill-du-jobba-med-webboptimering-och-webbanalys/" rel="alternate"/>
+		<updated>2011-05-02T07:50:46+02:00</updated>
+		<id>http://intranet.valtech.se/groups/valtech/posts/vill-du-jobba-med-webboptimering-och-webbanalys/</id>
+		<summary type="html">I höst drar jag igång ett initiativ som syftar till att ta fram ett kraftfullt kunderbjudande inom det som ...</summary>
+		<slash:comments>9</slash:comments>
+	</entry>
+</feed>

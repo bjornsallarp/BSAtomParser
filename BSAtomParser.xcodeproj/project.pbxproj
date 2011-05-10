@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F448B5D0136B0418000265C0 /* BSAtomFeedCustomElement.h in Headers */ = {isa = PBXBuildFile; fileRef = F448B5CE136B0418000265C0 /* BSAtomFeedCustomElement.h */; };
+		F448B5D1136B0418000265C0 /* BSAtomFeedCustomElement.m in Sources */ = {isa = PBXBuildFile; fileRef = F448B5CF136B0418000265C0 /* BSAtomFeedCustomElement.m */; };
+		F448B5D8136EAD7F000265C0 /* samplefeed2.atom in Resources */ = {isa = PBXBuildFile; fileRef = F448B5D5136EAD7F000265C0 /* samplefeed2.atom */; };
+		F448B5D9136EAD7F000265C0 /* samplefeed3.atom in Resources */ = {isa = PBXBuildFile; fileRef = F448B5D6136EAD7F000265C0 /* samplefeed3.atom */; };
+		F448B5DA136EAD7F000265C0 /* samplefeed4.atom in Resources */ = {isa = PBXBuildFile; fileRef = F448B5D7136EAD7F000265C0 /* samplefeed4.atom */; };
+		F448B5DD136EB2A9000265C0 /* BSAtomFeedTextElement.h in Headers */ = {isa = PBXBuildFile; fileRef = F448B5DB136EB2A9000265C0 /* BSAtomFeedTextElement.h */; };
+		F448B5DE136EB2A9000265C0 /* BSAtomFeedTextElement.m in Sources */ = {isa = PBXBuildFile; fileRef = F448B5DC136EB2A9000265C0 /* BSAtomFeedTextElement.m */; };
+		F455E9A41378684500BFC289 /* samplefeed6.atom in Resources */ = {isa = PBXBuildFile; fileRef = F455E9A21378684500BFC289 /* samplefeed6.atom */; };
+		F455E9A51378684500BFC289 /* samplefeed7.atom in Resources */ = {isa = PBXBuildFile; fileRef = F455E9A31378684500BFC289 /* samplefeed7.atom */; };
+		F45D5E76137876A0002A3CC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46C21881365925C00DC1007 /* UIKit.framework */; };
+		F45D5E77137876A0002A3CC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46C217D1365925B00DC1007 /* Foundation.framework */; };
+		F45D5E78137876A0002A3CC3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46C218B1365925C00DC1007 /* CoreGraphics.framework */; };
+		F45D5E7E137876A0002A3CC3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F45D5E7C137876A0002A3CC3 /* InfoPlist.strings */; };
+		F45D5E81137876A0002A3CC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F45D5E80137876A0002A3CC3 /* main.m */; };
+		F45D5E84137876A0002A3CC3 /* AtomReaderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F45D5E83137876A0002A3CC3 /* AtomReaderAppDelegate.m */; };
+		F45D5E87137876A0002A3CC3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F45D5E85137876A0002A3CC3 /* MainWindow.xib */; };
+		F45D5E8A137876A0002A3CC3 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F45D5E89137876A0002A3CC3 /* RootViewController.m */; };
+		F45D5E8D137876A0002A3CC3 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F45D5E8B137876A0002A3CC3 /* RootViewController.xib */; };
+		F46C217E1365925B00DC1007 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46C217D1365925B00DC1007 /* Foundation.framework */; };
+		F46C21891365925C00DC1007 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46C21881365925C00DC1007 /* UIKit.framework */; };
+		F46C218A1365925C00DC1007 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46C217D1365925B00DC1007 /* Foundation.framework */; };
+		F46C218C1365925C00DC1007 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46C218B1365925C00DC1007 /* CoreGraphics.framework */; };
+		F46C218F1365925C00DC1007 /* libBSAtomParser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F46C217A1365925B00DC1007 /* libBSAtomParser.a */; };
+		F46C21951365925C00DC1007 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F46C21931365925C00DC1007 /* InfoPlist.strings */; };
+		F46C21981365925C00DC1007 /* BSAtomParserTests.h in Resources */ = {isa = PBXBuildFile; fileRef = F46C21971365925C00DC1007 /* BSAtomParserTests.h */; };
+		F46C219A1365925C00DC1007 /* BSAtomParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F46C21991365925C00DC1007 /* BSAtomParserTests.m */; };
+		F46C21A5136592C600DC1007 /* BSAtomParser.h in Headers */ = {isa = PBXBuildFile; fileRef = F46C21A3136592C600DC1007 /* BSAtomParser.h */; };
+		F46C21A6136592C600DC1007 /* BSAtomParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F46C21A4136592C600DC1007 /* BSAtomParser.m */; };
+		F46C21AA136592F600DC1007 /* BSAtomFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = F46C21A8136592F600DC1007 /* BSAtomFeed.h */; };
+		F46C21AB136592F600DC1007 /* BSAtomFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = F46C21A9136592F600DC1007 /* BSAtomFeed.m */; };
+		F46C21AE1365930500DC1007 /* BSAtomFeedEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = F46C21AC1365930500DC1007 /* BSAtomFeedEntry.h */; };
+		F46C21AF1365930500DC1007 /* BSAtomFeedEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = F46C21AD1365930500DC1007 /* BSAtomFeedEntry.m */; };
+		F46C21B21365937300DC1007 /* samplefeed1.atom in Resources */ = {isa = PBXBuildFile; fileRef = F46C21B11365937300DC1007 /* samplefeed1.atom */; };
+		F46C21BB13659F4A00DC1007 /* BSAtomFeedLink.h in Headers */ = {isa = PBXBuildFile; fileRef = F46C21B913659F4A00DC1007 /* BSAtomFeedLink.h */; };
+		F46C21BC13659F4A00DC1007 /* BSAtomFeedLink.m in Sources */ = {isa = PBXBuildFile; fileRef = F46C21BA13659F4A00DC1007 /* BSAtomFeedLink.m */; };
+		F46C21BF1365A2D600DC1007 /* BSAtomFeedBase.h in Headers */ = {isa = PBXBuildFile; fileRef = F46C21BD1365A2D600DC1007 /* BSAtomFeedBase.h */; };
+		F46C21C01365A2D600DC1007 /* BSAtomFeedBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F46C21BE1365A2D600DC1007 /* BSAtomFeedBase.m */; };
+		F4906327137876DE00A889BF /* libBSAtomParser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F46C217A1365925B00DC1007 /* libBSAtomParser.a */; };
+		F490632E13787DAE00A889BF /* NewsArticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F490632C13787DAE00A889BF /* NewsArticleViewController.m */; };
+		F490632F13787DAE00A889BF /* NewsArticleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F490632D13787DAE00A889BF /* NewsArticleViewController.xib */; };
+		F4F4B0B01375341700648B9A /* samplefeed5.atom in Resources */ = {isa = PBXBuildFile; fileRef = F4F4B0AF1375341700648B9A /* samplefeed5.atom */; };
+		F4F4B0B4137539AB00648B9A /* BSAtomFeedCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F4B0B2137539AB00648B9A /* BSAtomFeedCategory.h */; };
+		F4F4B0B5137539AB00648B9A /* BSAtomFeedCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F4B0B3137539AB00648B9A /* BSAtomFeedCategory.m */; };
+		F4F4B0B713753D2300648B9A /* BSAtom.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F4B0B613753D2300648B9A /* BSAtom.h */; };
+		F4F4B0BA1375450A00648B9A /* BSAtomFeedPerson.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F4B0B81375450900648B9A /* BSAtomFeedPerson.h */; };
+		F4F4B0BB1375450A00648B9A /* BSAtomFeedPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F4B0B91375450900648B9A /* BSAtomFeedPerson.m */; };
+		F4F4B0BE1375571800648B9A /* BSAtomFeedGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F4B0BC1375571700648B9A /* BSAtomFeedGenerator.h */; };
+		F4F4B0BF1375571800648B9A /* BSAtomFeedGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F4B0BD1375571700648B9A /* BSAtomFeedGenerator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F46C218D1365925C00DC1007 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F46C21711365925B00DC1007 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F46C21791365925B00DC1007;
+			remoteInfo = BSAtomParser;
+		};
+		F4906329137876E200A889BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F46C21711365925B00DC1007 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F46C21791365925B00DC1007;
+			remoteInfo = BSAtomParser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F448B5CE136B0418000265C0 /* BSAtomFeedCustomElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAtomFeedCustomElement.h; sourceTree = "<group>"; };
+		F448B5CF136B0418000265C0 /* BSAtomFeedCustomElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSAtomFeedCustomElement.m; sourceTree = "<group>"; };
+		F448B5D5136EAD7F000265C0 /* samplefeed2.atom */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = samplefeed2.atom; path = Feeds/samplefeed2.atom; sourceTree = SOURCE_ROOT; };
+		F448B5D6136EAD7F000265C0 /* samplefeed3.atom */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = samplefeed3.atom; path = Feeds/samplefeed3.atom; sourceTree = SOURCE_ROOT; };
+		F448B5D7136EAD7F000265C0 /* samplefeed4.atom */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = samplefeed4.atom; path = Feeds/samplefeed4.atom; sourceTree = SOURCE_ROOT; };
+		F448B5DB136EB2A9000265C0 /* BSAtomFeedTextElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAtomFeedTextElement.h; sourceTree = "<group>"; };
+		F448B5DC136EB2A9000265C0 /* BSAtomFeedTextElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSAtomFeedTextElement.m; sourceTree = "<group>"; };
+		F455E9A21378684500BFC289 /* samplefeed6.atom */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = samplefeed6.atom; path = Feeds/samplefeed6.atom; sourceTree = SOURCE_ROOT; };
+		F455E9A31378684500BFC289 /* samplefeed7.atom */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = samplefeed7.atom; path = Feeds/samplefeed7.atom; sourceTree = SOURCE_ROOT; };
+		F45D5E74137876A0002A3CC3 /* AtomReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AtomReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F45D5E7B137876A0002A3CC3 /* AtomReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AtomReader-Info.plist"; sourceTree = "<group>"; };
+		F45D5E7D137876A0002A3CC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F45D5E7F137876A0002A3CC3 /* AtomReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AtomReader-Prefix.pch"; sourceTree = "<group>"; };
+		F45D5E80137876A0002A3CC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F45D5E82137876A0002A3CC3 /* AtomReaderAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AtomReaderAppDelegate.h; sourceTree = "<group>"; };
+		F45D5E83137876A0002A3CC3 /* AtomReaderAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AtomReaderAppDelegate.m; sourceTree = "<group>"; };
+		F45D5E86137876A0002A3CC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		F45D5E88137876A0002A3CC3 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		F45D5E89137876A0002A3CC3 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		F45D5E8C137876A0002A3CC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		F46C217A1365925B00DC1007 /* libBSAtomParser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBSAtomParser.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46C217D1365925B00DC1007 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F46C21811365925B00DC1007 /* BSAtomParser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BSAtomParser-Prefix.pch"; sourceTree = "<group>"; };
+		F46C21871365925C00DC1007 /* BSAtomParserTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSAtomParserTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46C21881365925C00DC1007 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F46C218B1365925C00DC1007 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F46C21921365925C00DC1007 /* BSAtomParserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BSAtomParserTests-Info.plist"; sourceTree = "<group>"; };
+		F46C21941365925C00DC1007 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F46C21961365925C00DC1007 /* BSAtomParserTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BSAtomParserTests-Prefix.pch"; sourceTree = "<group>"; };
+		F46C21971365925C00DC1007 /* BSAtomParserTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSAtomParserTests.h; sourceTree = "<group>"; };
+		F46C21991365925C00DC1007 /* BSAtomParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSAtomParserTests.m; sourceTree = "<group>"; };
+		F46C21A3136592C600DC1007 /* BSAtomParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAtomParser.h; sourceTree = "<group>"; };
+		F46C21A4136592C600DC1007 /* BSAtomParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSAtomParser.m; sourceTree = "<group>"; };
+		F46C21A8136592F600DC1007 /* BSAtomFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAtomFeed.h; sourceTree = "<group>"; };
+		F46C21A9136592F600DC1007 /* BSAtomFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSAtomFeed.m; sourceTree = "<group>"; };
+		F46C21AC1365930500DC1007 /* BSAtomFeedEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAtomFeedEntry.h; sourceTree = "<group>"; };
+		F46C21AD1365930500DC1007 /* BSAtomFeedEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSAtomFeedEntry.m; sourceTree = "<group>"; };
+		F46C21B11365937300DC1007 /* samplefeed1.atom */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = samplefeed1.atom; path = Feeds/samplefeed1.atom; sourceTree = SOURCE_ROOT; };
+		F46C21B913659F4A00DC1007 /* BSAtomFeedLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAtomFeedLink.h; sourceTree = "<group>"; };
+		F46C21BA13659F4A00DC1007 /* BSAtomFeedLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSAtomFeedLink.m; sourceTree = "<group>"; };
+		F46C21BD1365A2D600DC1007 /* BSAtomFeedBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAtomFeedBase.h; sourceTree = "<group>"; };
+		F46C21BE1365A2D600DC1007 /* BSAtomFeedBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSAtomFeedBase.m; sourceTree = "<group>"; };
+		F490632B13787DAE00A889BF /* NewsArticleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsArticleViewController.h; sourceTree = "<group>"; };
+		F490632C13787DAE00A889BF /* NewsArticleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsArticleViewController.m; sourceTree = "<group>"; };
+		F490632D13787DAE00A889BF /* NewsArticleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsArticleViewController.xib; sourceTree = "<group>"; };
+		F4F4B0AF1375341700648B9A /* samplefeed5.atom */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = samplefeed5.atom; path = Feeds/samplefeed5.atom; sourceTree = SOURCE_ROOT; };
+		F4F4B0B2137539AB00648B9A /* BSAtomFeedCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAtomFeedCategory.h; sourceTree = "<group>"; };
+		F4F4B0B3137539AB00648B9A /* BSAtomFeedCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSAtomFeedCategory.m; sourceTree = "<group>"; };
+		F4F4B0B613753D2300648B9A /* BSAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAtom.h; sourceTree = "<group>"; };
+		F4F4B0B81375450900648B9A /* BSAtomFeedPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAtomFeedPerson.h; sourceTree = "<group>"; };
+		F4F4B0B91375450900648B9A /* BSAtomFeedPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSAtomFeedPerson.m; sourceTree = "<group>"; };
+		F4F4B0BC1375571700648B9A /* BSAtomFeedGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAtomFeedGenerator.h; sourceTree = "<group>"; };
+		F4F4B0BD1375571700648B9A /* BSAtomFeedGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSAtomFeedGenerator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F45D5E71137876A0002A3CC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4906327137876DE00A889BF /* libBSAtomParser.a in Frameworks */,
+				F45D5E76137876A0002A3CC3 /* UIKit.framework in Frameworks */,
+				F45D5E77137876A0002A3CC3 /* Foundation.framework in Frameworks */,
+				F45D5E78137876A0002A3CC3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46C21771365925B00DC1007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46C217E1365925B00DC1007 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46C21831365925C00DC1007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46C21891365925C00DC1007 /* UIKit.framework in Frameworks */,
+				F46C218A1365925C00DC1007 /* Foundation.framework in Frameworks */,
+				F46C218C1365925C00DC1007 /* CoreGraphics.framework in Frameworks */,
+				F46C218F1365925C00DC1007 /* libBSAtomParser.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F45D5E79137876A0002A3CC3 /* AtomReader */ = {
+			isa = PBXGroup;
+			children = (
+				F45D5E82137876A0002A3CC3 /* AtomReaderAppDelegate.h */,
+				F45D5E83137876A0002A3CC3 /* AtomReaderAppDelegate.m */,
+				F490632B13787DAE00A889BF /* NewsArticleViewController.h */,
+				F490632C13787DAE00A889BF /* NewsArticleViewController.m */,
+				F45D5E88137876A0002A3CC3 /* RootViewController.h */,
+				F45D5E89137876A0002A3CC3 /* RootViewController.m */,
+				F49063301378873F00A889BF /* XIB */,
+				F45D5E7A137876A0002A3CC3 /* Supporting Files */,
+			);
+			path = AtomReader;
+			sourceTree = "<group>";
+		};
+		F45D5E7A137876A0002A3CC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F45D5E7B137876A0002A3CC3 /* AtomReader-Info.plist */,
+				F45D5E7C137876A0002A3CC3 /* InfoPlist.strings */,
+				F45D5E7F137876A0002A3CC3 /* AtomReader-Prefix.pch */,
+				F45D5E80137876A0002A3CC3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F46C216F1365925B00DC1007 = {
+			isa = PBXGroup;
+			children = (
+				F46C217F1365925B00DC1007 /* BSAtomParser */,
+				F46C21901365925C00DC1007 /* BSAtomParserTests */,
+				F45D5E79137876A0002A3CC3 /* AtomReader */,
+				F46C217C1365925B00DC1007 /* Frameworks */,
+				F46C217B1365925B00DC1007 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F46C217B1365925B00DC1007 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F46C21871365925C00DC1007 /* BSAtomParserTests.octest */,
+				F45D5E74137876A0002A3CC3 /* AtomReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F46C217C1365925B00DC1007 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F46C217A1365925B00DC1007 /* libBSAtomParser.a */,
+				F46C217D1365925B00DC1007 /* Foundation.framework */,
+				F46C21881365925C00DC1007 /* UIKit.framework */,
+				F46C218B1365925C00DC1007 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F46C217F1365925B00DC1007 /* BSAtomParser */ = {
+			isa = PBXGroup;
+			children = (
+				F46C21A7136592E400DC1007 /* Classes */,
+				F46C21801365925B00DC1007 /* Supporting Files */,
+				F46C21A3136592C600DC1007 /* BSAtomParser.h */,
+				F46C21A4136592C600DC1007 /* BSAtomParser.m */,
+				F4F4B0B613753D2300648B9A /* BSAtom.h */,
+			);
+			path = BSAtomParser;
+			sourceTree = "<group>";
+		};
+		F46C21801365925B00DC1007 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F46C21811365925B00DC1007 /* BSAtomParser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F46C21901365925C00DC1007 /* BSAtomParserTests */ = {
+			isa = PBXGroup;
+			children = (
+				F46C21971365925C00DC1007 /* BSAtomParserTests.h */,
+				F46C21991365925C00DC1007 /* BSAtomParserTests.m */,
+				F46C21B01365930C00DC1007 /* Sample feeds */,
+				F46C21911365925C00DC1007 /* Supporting Files */,
+			);
+			path = BSAtomParserTests;
+			sourceTree = "<group>";
+		};
+		F46C21911365925C00DC1007 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F46C21921365925C00DC1007 /* BSAtomParserTests-Info.plist */,
+				F46C21931365925C00DC1007 /* InfoPlist.strings */,
+				F46C21961365925C00DC1007 /* BSAtomParserTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F46C21A7136592E400DC1007 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F46C21A8136592F600DC1007 /* BSAtomFeed.h */,
+				F46C21A9136592F600DC1007 /* BSAtomFeed.m */,
+				F46C21AC1365930500DC1007 /* BSAtomFeedEntry.h */,
+				F46C21AD1365930500DC1007 /* BSAtomFeedEntry.m */,
+				F46C21B913659F4A00DC1007 /* BSAtomFeedLink.h */,
+				F46C21BA13659F4A00DC1007 /* BSAtomFeedLink.m */,
+				F46C21BD1365A2D600DC1007 /* BSAtomFeedBase.h */,
+				F46C21BE1365A2D600DC1007 /* BSAtomFeedBase.m */,
+				F448B5CE136B0418000265C0 /* BSAtomFeedCustomElement.h */,
+				F448B5CF136B0418000265C0 /* BSAtomFeedCustomElement.m */,
+				F448B5DB136EB2A9000265C0 /* BSAtomFeedTextElement.h */,
+				F448B5DC136EB2A9000265C0 /* BSAtomFeedTextElement.m */,
+				F4F4B0B2137539AB00648B9A /* BSAtomFeedCategory.h */,
+				F4F4B0B3137539AB00648B9A /* BSAtomFeedCategory.m */,
+				F4F4B0B81375450900648B9A /* BSAtomFeedPerson.h */,
+				F4F4B0B91375450900648B9A /* BSAtomFeedPerson.m */,
+				F4F4B0BC1375571700648B9A /* BSAtomFeedGenerator.h */,
+				F4F4B0BD1375571700648B9A /* BSAtomFeedGenerator.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		F46C21B01365930C00DC1007 /* Sample feeds */ = {
+			isa = PBXGroup;
+			children = (
+				F455E9A21378684500BFC289 /* samplefeed6.atom */,
+				F455E9A31378684500BFC289 /* samplefeed7.atom */,
+				F4F4B0AF1375341700648B9A /* samplefeed5.atom */,
+				F448B5D5136EAD7F000265C0 /* samplefeed2.atom */,
+				F448B5D6136EAD7F000265C0 /* samplefeed3.atom */,
+				F448B5D7136EAD7F000265C0 /* samplefeed4.atom */,
+				F46C21B11365937300DC1007 /* samplefeed1.atom */,
+			);
+			name = "Sample feeds";
+			sourceTree = "<group>";
+		};
+		F49063301378873F00A889BF /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				F45D5E85137876A0002A3CC3 /* MainWindow.xib */,
+				F490632D13787DAE00A889BF /* NewsArticleViewController.xib */,
+				F45D5E8B137876A0002A3CC3 /* RootViewController.xib */,
+			);
+			name = XIB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F46C21781365925B00DC1007 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46C21A5136592C600DC1007 /* BSAtomParser.h in Headers */,
+				F46C21AA136592F600DC1007 /* BSAtomFeed.h in Headers */,
+				F46C21AE1365930500DC1007 /* BSAtomFeedEntry.h in Headers */,
+				F46C21BB13659F4A00DC1007 /* BSAtomFeedLink.h in Headers */,
+				F46C21BF1365A2D600DC1007 /* BSAtomFeedBase.h in Headers */,
+				F448B5D0136B0418000265C0 /* BSAtomFeedCustomElement.h in Headers */,
+				F448B5DD136EB2A9000265C0 /* BSAtomFeedTextElement.h in Headers */,
+				F4F4B0B4137539AB00648B9A /* BSAtomFeedCategory.h in Headers */,
+				F4F4B0B713753D2300648B9A /* BSAtom.h in Headers */,
+				F4F4B0BA1375450A00648B9A /* BSAtomFeedPerson.h in Headers */,
+				F4F4B0BE1375571800648B9A /* BSAtomFeedGenerator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F45D5E73137876A0002A3CC3 /* AtomReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F45D5E90137876A0002A3CC3 /* Build configuration list for PBXNativeTarget "AtomReader" */;
+			buildPhases = (
+				F45D5E70137876A0002A3CC3 /* Sources */,
+				F45D5E71137876A0002A3CC3 /* Frameworks */,
+				F45D5E72137876A0002A3CC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F490632A137876E200A889BF /* PBXTargetDependency */,
+			);
+			name = AtomReader;
+			productName = AtomReader;
+			productReference = F45D5E74137876A0002A3CC3 /* AtomReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F46C21791365925B00DC1007 /* BSAtomParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F46C219D1365925C00DC1007 /* Build configuration list for PBXNativeTarget "BSAtomParser" */;
+			buildPhases = (
+				F46C21761365925B00DC1007 /* Sources */,
+				F46C21771365925B00DC1007 /* Frameworks */,
+				F46C21781365925B00DC1007 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BSAtomParser;
+			productName = BSAtomParser;
+			productReference = F46C217A1365925B00DC1007 /* libBSAtomParser.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F46C21861365925C00DC1007 /* BSAtomParserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F46C21A01365925C00DC1007 /* Build configuration list for PBXNativeTarget "BSAtomParserTests" */;
+			buildPhases = (
+				F46C21821365925C00DC1007 /* Sources */,
+				F46C21831365925C00DC1007 /* Frameworks */,
+				F46C21841365925C00DC1007 /* Resources */,
+				F46C21851365925C00DC1007 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F46C218E1365925C00DC1007 /* PBXTargetDependency */,
+			);
+			name = BSAtomParserTests;
+			productName = BSAtomParserTests;
+			productReference = F46C21871365925C00DC1007 /* BSAtomParserTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F46C21711365925B00DC1007 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Avantime AB";
+			};
+			buildConfigurationList = F46C21741365925B00DC1007 /* Build configuration list for PBXProject "BSAtomParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F46C216F1365925B00DC1007;
+			productRefGroup = F46C217B1365925B00DC1007 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F46C21791365925B00DC1007 /* BSAtomParser */,
+				F46C21861365925C00DC1007 /* BSAtomParserTests */,
+				F45D5E73137876A0002A3CC3 /* AtomReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F45D5E72137876A0002A3CC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45D5E7E137876A0002A3CC3 /* InfoPlist.strings in Resources */,
+				F45D5E87137876A0002A3CC3 /* MainWindow.xib in Resources */,
+				F45D5E8D137876A0002A3CC3 /* RootViewController.xib in Resources */,
+				F490632F13787DAE00A889BF /* NewsArticleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46C21841365925C00DC1007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46C21951365925C00DC1007 /* InfoPlist.strings in Resources */,
+				F46C21981365925C00DC1007 /* BSAtomParserTests.h in Resources */,
+				F46C21B21365937300DC1007 /* samplefeed1.atom in Resources */,
+				F448B5D8136EAD7F000265C0 /* samplefeed2.atom in Resources */,
+				F448B5D9136EAD7F000265C0 /* samplefeed3.atom in Resources */,
+				F448B5DA136EAD7F000265C0 /* samplefeed4.atom in Resources */,
+				F4F4B0B01375341700648B9A /* samplefeed5.atom in Resources */,
+				F455E9A41378684500BFC289 /* samplefeed6.atom in Resources */,
+				F455E9A51378684500BFC289 /* samplefeed7.atom in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F46C21851365925C00DC1007 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F45D5E70137876A0002A3CC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45D5E81137876A0002A3CC3 /* main.m in Sources */,
+				F45D5E84137876A0002A3CC3 /* AtomReaderAppDelegate.m in Sources */,
+				F45D5E8A137876A0002A3CC3 /* RootViewController.m in Sources */,
+				F490632E13787DAE00A889BF /* NewsArticleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46C21761365925B00DC1007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46C21A6136592C600DC1007 /* BSAtomParser.m in Sources */,
+				F46C21AB136592F600DC1007 /* BSAtomFeed.m in Sources */,
+				F46C21AF1365930500DC1007 /* BSAtomFeedEntry.m in Sources */,
+				F46C21BC13659F4A00DC1007 /* BSAtomFeedLink.m in Sources */,
+				F46C21C01365A2D600DC1007 /* BSAtomFeedBase.m in Sources */,
+				F448B5D1136B0418000265C0 /* BSAtomFeedCustomElement.m in Sources */,
+				F448B5DE136EB2A9000265C0 /* BSAtomFeedTextElement.m in Sources */,
+				F4F4B0B5137539AB00648B9A /* BSAtomFeedCategory.m in Sources */,
+				F4F4B0BB1375450A00648B9A /* BSAtomFeedPerson.m in Sources */,
+				F4F4B0BF1375571800648B9A /* BSAtomFeedGenerator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46C21821365925C00DC1007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46C219A1365925C00DC1007 /* BSAtomParserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F46C218E1365925C00DC1007 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F46C21791365925B00DC1007 /* BSAtomParser */;
+			targetProxy = F46C218D1365925C00DC1007 /* PBXContainerItemProxy */;
+		};
+		F490632A137876E200A889BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F46C21791365925B00DC1007 /* BSAtomParser */;
+			targetProxy = F4906329137876E200A889BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F45D5E7C137876A0002A3CC3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F45D5E7D137876A0002A3CC3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F45D5E85137876A0002A3CC3 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F45D5E86137876A0002A3CC3 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		F45D5E8B137876A0002A3CC3 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F45D5E8C137876A0002A3CC3 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		F46C21931365925C00DC1007 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F46C21941365925C00DC1007 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F45D5E8E137876A0002A3CC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AtomReader/AtomReader-Prefix.pch";
+				INFOPLIST_FILE = "AtomReader/AtomReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F45D5E8F137876A0002A3CC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AtomReader/AtomReader-Prefix.pch";
+				INFOPLIST_FILE = "AtomReader/AtomReader-Info.plist";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F46C219B1365925C00DC1007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F46C219C1365925C00DC1007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		F46C219E1365925C00DC1007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/BSAtomParser.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BSAtomParser/BSAtomParser-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F46C219F1365925C00DC1007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/BSAtomParser.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BSAtomParser/BSAtomParser-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F46C21A11365925C00DC1007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BSAtomParserTests/BSAtomParserTests-Prefix.pch";
+				INFOPLIST_FILE = "BSAtomParserTests/BSAtomParserTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F46C21A21365925C00DC1007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BSAtomParserTests/BSAtomParserTests-Prefix.pch";
+				INFOPLIST_FILE = "BSAtomParserTests/BSAtomParserTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F45D5E90137876A0002A3CC3 /* Build configuration list for PBXNativeTarget "AtomReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45D5E8E137876A0002A3CC3 /* Debug */,
+				F45D5E8F137876A0002A3CC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F46C21741365925B00DC1007 /* Build configuration list for PBXProject "BSAtomParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46C219B1365925C00DC1007 /* Debug */,
+				F46C219C1365925C00DC1007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F46C219D1365925C00DC1007 /* Build configuration list for PBXNativeTarget "BSAtomParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46C219E1365925C00DC1007 /* Debug */,
+				F46C219F1365925C00DC1007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F46C21A01365925C00DC1007 /* Build configuration list for PBXNativeTarget "BSAtomParserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46C21A11365925C00DC1007 /* Debug */,
+				F46C21A21365925C00DC1007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F46C21711365925B00DC1007 /* Project object */;
+}

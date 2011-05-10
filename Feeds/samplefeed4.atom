@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xml:lang="sv-se">
+	<title>Valtech - mina gruppers poster</title>
+	<link href="http://intranet.valtech.se/" rel="alternate"/>
+	<link href="http://intranet.valtech.se/feeds/user/bjorn.sallarp,50d39e657cbfaea4daa1a5fb8151c360" rel="self"/>
+	<id>http://intranet.valtech.se/</id>
+	<updated>2011-05-02T07:50:46+02:00</updated>
+	<entry>
+		<title>Vill du jobba med webboptimering och webbanalys?</title>
+		<link href="http://intranet.valtech.se/groups/valtech/posts/vill-du-jobba-med-webboptimering-och-webbanalys/" rel="alternate"/>
+		<updated>2011-05-02T07:50:46+02:00</updated>
+		<id>http://intranet.valtech.se/groups/valtech/posts/vill-du-jobba-med-webboptimering-och-webbanalys/</id>
+		<summary type="html">I höst drar jag igång ett initiativ som syftar till att ta fram ett kraftfullt kunderbjudande inom det som ...</summary>
+		<slash:comments>9</slash:comments>
+	</entry>
+	<entry>
+		<title>Node.js Workshop - GTUG Special hos Valtech</title>
+		<link href="http://intranet.valtech.se/groups/valtech/posts/nodejs-workshop-gtug-special-hos-valtech/" rel="alternate"/>
+		<updated>2011-05-02T07:30:36+02:00</updated>
+		<id>http://intranet.valtech.se/groups/valtech/posts/nodejs-workshop-gtug-special-hos-valtech/</id>
+		<summary type="html">Den 26 maj kl 15 är det åter igen dags för Valtech att vara värd för GTUG. Denna gång ...</summary>
+		<slash:comments>0</slash:comments>
+	</entry>
+	<entry>
+		<title>Retendo</title>
+		<link href="http://intranet.valtech.se/groups/valtech/posts/retendo/" rel="alternate"/>
+		<updated>2011-04-29T16:36:08+02:00</updated>
+		<id>http://intranet.valtech.se/groups/valtech/posts/retendo/</id>
+		<summary type="html">Som alla märkt har Retendo varit mycket segt under senare tid. Retendo har nu ändrat så att bakgrundsjobb går ...</summary>
+		<slash:comments>4</slash:comments>
+	</entry>
+	<entry>
+		<title>Summer Cruise Experience</title>
+		<link href="http://intranet.valtech.se/groups/valtech/posts/summer-cruise-experience/" rel="alternate"/>
+		<updated>2011-04-29T13:00:10+02:00</updated>
+		<id>http://intranet.valtech.se/groups/valtech/posts/summer-cruise-experience/</id>
+		<summary type="html">Det har pratats på fredagsöl om lusten att spela i band igen. Nu har du chansen!</summary>
+		<slash:comments>0</slash:comments>
+	</entry>
+	<entry>
+		<title>Om programmeringsspråk vore religion...</title>
+		<link href="http://intranet.valtech.se/groups/strunt/posts/om-programmeringssprak-vore-religion/" rel="alternate"/>
+		<updated>2011-04-28T23:47:31+02:00</updated>
+		<id>http://intranet.valtech.se/groups/strunt/posts/om-programmeringssprak-vore-religion/</id>
+		<summary type="html">http://www.itu.dk/courses/BPRD/E2010/religion.txt Stämmer?</summary>
+		<slash:comments>0</slash:comments>
+	</entry>
+	<entry>
+		<title>SiteSeeker API - dragning på det? Intressant?</title>
+		<link href="http://intranet.valtech.se/groups/net-teknik-utb/posts/siteseeker-api-dragning-pa-det-intressant/" rel="alternate"/>
+		<updated>2011-04-28T15:57:02+02:00</updated>
+		<id>http://intranet.valtech.se/groups/net-teknik-utb/posts/siteseeker-api-dragning-pa-det-intressant/</id>
+		<summary type="html">Finns det intresse inom gruppen att utvecklare från SiteSeeker/Euroling kommer hit och berättare om det nya API-et som är ...</summary>
+		<slash:comments>22</slash:comments>
+	</entry>
+	<entry>
+		<title>Vem vill hjälpa en student?</title>
+		<link href="http://intranet.valtech.se/groups/valtech/posts/vem-vill-hjalpa-en-student/" rel="alternate"/>
+		<updated>2011-04-28T13:33:16+02:00</updated>
+		<id>http://intranet.valtech.se/groups/valtech/posts/vem-vill-hjalpa-en-student/</id>
+		<summary type="html">Ngn som är road av att lägga en timme på att svara på frågor för ett ex-jobb. Rent praktiskt ...</summary>
+		<slash:comments>2</slash:comments>
+	</entry>
+	<entry>
+		<title>Vem har erfarenhet av agil tillämpning av RUP alt. OpenUP?</title>
+		<link href="http://intranet.valtech.se/groups/valtech/posts/vem-har-erfarenhet-av-agil-tillamning-av-rup-alt-openup/" rel="alternate"/>
+		<updated>2011-04-28T11:30:24+02:00</updated>
+		<id>http://intranet.valtech.se/groups/valtech/posts/vem-har-erfarenhet-av-agil-tillamning-av-rup-alt-openup/</id>
+		<summary type="html">I ett anbud till Arbetsförmedlingen behöver jag ett antal konsulter med erfarenhet av någon av dessa metoder. Det gäller ...</summary>
+		<slash:comments>4</slash:comments>
+	</entry>
+	<entry>
+		<title>SäkrareSex.se lanserad!</title>
+		<link href="http://intranet.valtech.se/groups/valtech/posts/sakraresexse-lanserad/" rel="alternate"/>
+		<updated>2011-04-27T16:46:09+02:00</updated>
+		<id>http://intranet.valtech.se/groups/valtech/posts/sakraresexse-lanserad/</id>
+		<summary type="html">Igår smyglanserades Lafas nya webb, SäkrareSex.se! Med i "sexprojektet" var Josefin Nilsson, Tomas Tunström, Bengt Sandhagen, Anna Uleander, Henrik ...</summary>
+		<slash:comments>11</slash:comments>
+	</entry>
+	<entry>
+		<title>Kalenderbokningar med felaktiga tidszoner</title>
+		<link href="http://intranet.valtech.se/groups/valtech/posts/kalenderbokningar-med-felaktiga-tidszoner/" rel="alternate"/>
+		<updated>2011-04-27T11:01:56+02:00</updated>
+		<id>http://intranet.valtech.se/groups/valtech/posts/kalenderbokningar-med-felaktiga-tidszoner/</id>
+		<summary type="html">Hej!En del har problem med att de får bokningar i fel tidszon.För att lösa detta ber jag er att ...</summary>
+		<slash:comments>1</slash:comments>
+	</entry>
+	<entry>
+		<title>Uppdatering dagens sälj- och bemanningsmöte v17</title>
+		<link href="http://intranet.valtech.se/groups/valtech/posts/uppdatering-dagens-salj-och-bemanningsmote-v17/" rel="alternate"/>
+		<updated>2011-04-26T21:07:42+02:00</updated>
+		<id>http://intranet.valtech.se/groups/valtech/posts/uppdatering-dagens-salj-och-bemanningsmote-v17/</id>
+		<summary type="html">Veckans uppdatering (förra veckan - eller som kuriosa för all del för ett år sedan): Diskussioner med Ericsson (MHO) ...</summary>
+		<slash:comments>2</slash:comments>
+	</entry>
+	<entry>
+		<title>Fixerad högerbox</title>
+		<link href="http://intranet.valtech.se/groups/intranatet/posts/fixerad-hogerbox/" rel="alternate"/>
+		<updated>2011-04-21T16:27:24+02:00</updated>
+		<id>http://intranet.valtech.se/groups/intranatet/posts/fixerad-hogerbox/</id>
+		<summary type="html">Vore det inte trevligt om boxen till höger (där filer, anmälningar, etc visas) följde med när man scrollar? Alltså ...</summary>
+		<slash:comments>7</slash:comments>
+	</entry>
+	<entry>
+		<title>Intranätet på mobilen</title>
+		<link href="http://intranet.valtech.se/groups/intranatet/posts/intranatet-pa-mobilen/" rel="alternate"/>
+		<updated>2011-04-20T14:09:28+02:00</updated>
+		<id>http://intranet.valtech.se/groups/intranatet/posts/intranatet-pa-mobilen/</id>
+		<summary type="html">Jag hade ett tillfälle av respit och började fundera lite kring vårt eminenta intranät. En av dess styrkor är ...</summary>
+		<slash:comments>15</slash:comments>
+	</entry>
+	<entry>
+		<title>Jonatan Larsson slutar på Valtech</title>
+		<link href="http://intranet.valtech.se/groups/valtech/posts/jonatan-larsson-slutar-pa-valtech/" rel="alternate"/>
+		<updated>2011-04-19T17:40:28+02:00</updated>
+		<id>http://intranet.valtech.se/groups/valtech/posts/jonatan-larsson-slutar-pa-valtech/</id>
+		<summary type="html">Efter ca 3,5 år kommer Jonatan eller "Lillbra" eller "Poppe" eller "Lalla" eller "jag-visste-inte-vad-jag-gjorde" att sluta på Valtech då ...</summary>
+		<slash:comments>42</slash:comments>
+	</entry>
+	<entry>
+		<title>Någon som jobbat med SAML 2.0 och .Net?</title>
+		<link href="http://intranet.valtech.se/groups/ms-gruppen/posts/nagon-som-jobbat-med-saml-20-och-net/" rel="alternate"/>
+		<updated>2011-04-19T09:17:57+02:00</updated>
+		<id>http://intranet.valtech.se/groups/ms-gruppen/posts/nagon-som-jobbat-med-saml-20-och-net/</id>
+		<summary type="html">Jag behöver bolla lite med någon som har erfarenhet, speciellt om vilken komponent för .Net som är lämplig att ...</summary>
+		<slash:comments>2</slash:comments>
+	</entry>
+	<entry>
+		<title>Uppdatering dagens sälj- och bemanningsmöte v16</title>
+		<link href="http://intranet.valtech.se/groups/valtech/posts/uppdatering-dagens-salj-och-bemanningsmote-v16/" rel="alternate"/>
+		<updated>2011-04-18T19:27:18+02:00</updated>
+		<id>http://intranet.valtech.se/groups/valtech/posts/uppdatering-dagens-salj-och-bemanningsmote-v16/</id>
+		<summary type="html">Mycket på G (förra veckan): Förfrågan från Unibet (KFA) om PHP utvecklare. Intressant möte på Electrolux (KFA) om deras ...</summary>
+		<slash:comments>4</slash:comments>
+	</entry>
+	<entry>
+		<title>Hur är det att jobba med e-handel egentligen?</title>
+		<link href="http://intranet.valtech.se/groups/valtech/posts/hur-ar-det-att-jobba-med-e-handel-egentligen/" rel="alternate"/>
+		<updated>2011-04-18T15:44:31+02:00</updated>
+		<id>http://intranet.valtech.se/groups/valtech/posts/hur-ar-det-att-jobba-med-e-handel-egentligen/</id>
+		<summary type="html">Det var många som ville gå på den kompetenslunchen men alla hade inte möjligheten så därför filmade vi Thomas ...</summary>
+		<slash:comments>2</slash:comments>
+	</entry>
+	<entry>
+		<title>Utveckling av Macapplikationer</title>
+		<link href="http://intranet.valtech.se/groups/valtech/posts/utveckling-av-macapplikationer/" rel="alternate"/>
+		<updated>2011-04-15T16:46:18+02:00</updated>
+		<id>http://intranet.valtech.se/groups/valtech/posts/utveckling-av-macapplikationer/</id>
+		<summary type="html">Någon känner till ett svenskt bolag som är fokuserade på att bygga applikationer för Mac, dvs inte iPhoneappar utan ...</summary>
+		<slash:comments>1</slash:comments>
+	</entry>
+	<entry>
+		<title>Lika som bär</title>
+		<link href="http://intranet.valtech.se/groups/strunt/posts/lika-som-bar-1/" rel="alternate"/>
+		<updated>2011-04-15T13:41:28+02:00</updated>
+		<id>http://intranet.valtech.se/groups/strunt/posts/lika-som-bar-1/</id>
+		<summary type="html">.</summary>
+		<slash:comments>9</slash:comments>
+	</entry>
+	<entry>
+		<title>Håkan Hellström @Ericsson  soundtrack</title>
+		<link href="http://intranet.valtech.se/groups/strunt/posts/hakan-hellstrom-soundtrack/" rel="alternate"/>
+		<updated>2011-04-15T12:29:18+02:00</updated>
+		<id>http://intranet.valtech.se/groups/strunt/posts/hakan-hellstrom-soundtrack/</id>
+		<summary type="html">...underhåller ett taggat demogäng 21 min innnan demostart på Ericsson :) Och efter...</summary>
+		<slash:comments>3</slash:comments>
+	</entry>
+</feed>
