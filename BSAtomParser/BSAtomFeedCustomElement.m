@@ -23,7 +23,7 @@
 
 - (id)initWithName:(NSString *)name content:(NSString *)content attributes:(NSDictionary *)attributes
 {
-    if ((self == [super init])) {
+    if ((self = [super init])) {
         self.name = name;
         self.content = content;
         self.attributes = attributes;

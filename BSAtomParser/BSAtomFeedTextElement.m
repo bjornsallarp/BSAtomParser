@@ -20,7 +20,7 @@
 
 - (id)initWithType:(NSString *)type
 {
-    if ((self == [super init])) {
+    if ((self = [super init])) {
         [self contentTypeFromString:type];
     }
     

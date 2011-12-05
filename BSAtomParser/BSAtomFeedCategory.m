@@ -27,7 +27,7 @@
 
 - (id)initWithTerm:(NSString *)term scheme:(NSString *)scheme label:(NSString *)label
 {
-    if ((self == [super init])) {
+    if ((self = [super init])) {
         self.term = term;
         self.scheme = scheme;
         self.label = label;

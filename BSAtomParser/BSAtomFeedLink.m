@@ -22,7 +22,7 @@
 
 - (id)initWithHref:(NSString *)href rel:(NSString *)rel
 {
-    if ((self == [super init])) {
+    if ((self = [super init])) {
         self.href = href;
         self.rel = rel;
     }

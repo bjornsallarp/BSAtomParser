@@ -395,6 +395,7 @@
 		F46C21711365925B00DC1007 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "Avantime AB";
 			};
 			buildConfigurationList = F46C21741365925B00DC1007 /* Build configuration list for PBXProject "BSAtomParser" */;

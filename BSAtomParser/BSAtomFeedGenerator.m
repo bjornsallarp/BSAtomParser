@@ -28,7 +28,7 @@
 
 - (id)initWithUri:(NSString *)uri version:(NSString *)version text:(NSString *)text
 {
-    if ((self == [super init])) {
+    if ((self = [super init])) {
         self.uri = uri;
         self.version = version;
         self.text = text;

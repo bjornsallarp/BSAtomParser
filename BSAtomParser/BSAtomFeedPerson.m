@@ -28,7 +28,7 @@
 
 - (id)initWithName:(NSString *)name uri:(NSString *)uri email:(NSString *)email
 {
-    if ((self == [super init])) {
+    if ((self = [super init])) {
         self.name = name;
         self.uri = uri;
         self.email = email;
