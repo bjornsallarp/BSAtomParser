@@ -166,10 +166,6 @@ NSString * const kBSXMLParserAtomNamespaceURI = @"http://www.w3.org/2005/Atom";
     }
     else if ([elementName isEqualToString:@"entry"]) {
         [self.elementHeirarchy addObject:[BSAtomFeedEntry entry]];
-        
-        if (self.delegate) {
-            [self.delegate atomParser:self didParseAtomFeed:self.atomFeed];
-        }
     }
     else if ([elementName isEqualToString:@"generator"]) {
         [self.elementHeirarchy addObject:[BSAtomFeedGenerator generatorWithUri:[attributeDict valueForKey:@"uri"] version:[attributeDict valueForKey:@"version"] text:nil]];
@@ -252,6 +248,11 @@ NSString * const kBSXMLParserAtomNamespaceURI = @"http://www.w3.org/2005/Atom";
         customElem.content = self.elementContent;
         self.elementContent = nil;
         self.tagSoupElement = nil;     
+    }
+    else if ([elementName isEqualToString:@"feed"]) {
+        if (self.delegate) {
+            [self.delegate atomParser:self didParseAtomFeed:self.atomFeed];
+        }
     }
     else if (self.elementContent) {
         [self setPropertyValueForObject:currentElement value:self.elementContent withPropertyPrefix:@"set" andPropertyName:elementName];
