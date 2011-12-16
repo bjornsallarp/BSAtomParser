@@ -179,11 +179,11 @@ NSString * const kBSXMLParserAtomNamespaceURI = @"http://www.w3.org/2005/Atom";
         if (![namespaceURI isEqualToString:kBSXMLParserAtomNamespaceURI]) {
             BSAtomFeedEntry *entry = (BSAtomFeedEntry *)currentElement;
             if (entry.customElements == nil) {
-                entry.customElements = [NSMutableDictionary dictionary];
+                entry.customElements = [NSMutableArray array];
             }
             
             BSAtomFeedCustomElement *customElement = [BSAtomFeedCustomElement elementWithName:qName content:nil attributes:attributeDict];
-            [entry.customElements setValue:customElement forKey:qName];
+            [entry.customElements addObject:customElement];
             
             self.tagSoupElement = qName;
             self.elementContent = [NSMutableString string];
@@ -243,8 +243,8 @@ NSString * const kBSXMLParserAtomNamespaceURI = @"http://www.w3.org/2005/Atom";
         [value release];
     }
     else if ([self.tagSoupElement isEqualToString:qName] && [currentElement respondsToSelector:@selector(customElements)]) {
-        NSDictionary *dict = [currentElement performSelector:@selector(customElements)];
-        BSAtomFeedCustomElement *customElem = [dict valueForKey:qName];
+        NSMutableArray *array = [currentElement performSelector:@selector(customElements)];
+        BSAtomFeedCustomElement *customElem = [array lastObject];
         customElem.content = self.elementContent;
         self.elementContent = nil;
         self.tagSoupElement = nil;     

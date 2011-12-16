@@ -84,8 +84,8 @@
     
     STAssertTrue(entry.summary.contentType == 1, @"Invalid summary type. Should be html");
     STAssertNotNil(entry.customElements, @"Custom elements was not supposed to be nil");
-    STAssertNotNil([entry.customElements valueForKey:@"slash:comments"], @"slash:comments should exist in customElements");
-    BSAtomFeedCustomElement *customElem = [entry.customElements valueForKey:@"slash:comments"]; 
+    STAssertNotNil([entry customElementsWithName:@"slash:comments"], @"slash:comments should exist in customElements");
+    BSAtomFeedCustomElement *customElem = [[entry customElementsWithName:@"slash:comments"] lastObject]; 
     STAssertTrue([customElem.content isEqualToString:@"9"], @"Comments should be 9, was: %@", customElem.content);
 }
 
@@ -136,7 +136,7 @@
     STAssertNil(category.label, @"Category label should be nil!");
        
     STAssertEquals([entry.customElements count], 1U, @"Entry should have 1 externsion element, had %d", [entry.customElements count]);
-    STAssertTrue([[[entry.customElements valueForKey:@"thr:total"] content] isEqualToString:@"0"], @"Inavlid thr:total extension value, shoyld be 0 was %@", [[entry.customElements valueForKey:@"thr:total"] content]);
+    STAssertTrue([[[[entry customElementsWithName:@"thr:total"] lastObject] content] isEqualToString:@"0"], @"Inavlid thr:total extension value, shoyld be 0 was %@", [[[entry customElementsWithName:@"thr:total"] lastObject] content]);
 }
 
 - (void)testFeedSix
@@ -151,7 +151,7 @@
     BSAtomFeedEntry *entry = [feed.entries objectAtIndex:0];
     STAssertTrue([entry.id isEqualToString:@"tag:github.com,2008:IssueCommentEvent/1352511158"], @"Entry id is invalid, should be tag:github.com,2008:IssueCommentEvent/1352511158, was %@", entry.id);
     
-    BSAtomFeedCustomElement *customElem = [entry.customElements valueForKey:@"media:thumbnail"];
+    BSAtomFeedCustomElement *customElem = [[entry customElementsWithName:@"media:thumbnail"] lastObject];
     STAssertNotNil(customElem, @"Custom element should not be nil!");
     STAssertEquals([customElem.attributes count], 3U, @"The custom element should have two attributes, was %d", [customElem.attributes count]);
     STAssertTrue([[customElem.attributes valueForKey:@"url"] isEqualToString:@"https://secure.gravatar.com/avatar/4b00d57778194e69ef79695bc4270d53?s=30&d=https://d3nwyuy0nl342s.cloudfront.net%2Fimages%2Fgravatars%2Fgravatar-140.png"], @"The custom element attribute url does not contain the expected content!");

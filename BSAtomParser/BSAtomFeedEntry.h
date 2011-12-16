@@ -14,8 +14,9 @@
 @interface BSAtomFeedEntry : BSAtomFeedBase
 @property (nonatomic, retain) BSAtomFeedTextElement *summary;
 @property (nonatomic, retain) BSAtomFeedTextElement *content;
-@property (nonatomic, retain) NSMutableDictionary *customElements;
+@property (nonatomic, retain) NSMutableArray *customElements;
 
 + (BSAtomFeedEntry *)entry;
+- (NSArray *)customElementsWithName:(NSString *)name;
 
 @end
